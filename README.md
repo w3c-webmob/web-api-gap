@@ -7,6 +7,7 @@ To document a given feature, please start from the [template file](template.md),
 For each line in hte list, include one of the following values (using **bolding**):
 * **unknown** (default if empty): no info gathered on this platform
 * **browser**: for HTML-based platforms, the feature is available and uses the same API as the one defined for browsers
+* **sysapp**: for HTML-based platforms, the feature is available and uses the same API as the one defined by sysapps
 * **yes**: feature is available
 * **partial**: feature is partially available
 * **planned**: not available yet, but work on this feature has been announced
@@ -22,3 +23,6 @@ Defining what a feature is is tricky; the following documents can be used as sou
 * [Android package index](http://developer.android.com/reference/packages.html)
 * [Windows API](http://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx)
 * [Cordova API reference](http://cordova.apache.org/docs/en/3.3.0/#API%20Reference)
+* [Tizen API References](https://developer.tizen.org/dev-guide/2.2.1/org.tizen.web.appprogramming/html/api_reference/api_reference.htm)
+* [Mozilla WebAPI](https://wiki.mozilla.org/WebAPI)
+* [Chrome Platform APIs](http://developer.chrome.com/extensions/api_index)
