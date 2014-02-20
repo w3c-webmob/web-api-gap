@@ -10,4 +10,3 @@ Ability to read the device location as latitude/longitude/altitude
 * FirefoxOS: **browser**
 * ChromeApps: **yes** [`chrome.location`](http://developer.chrome.com/extensions/location) (adds `onLocationUpdate` to the **browser** API)
 * Tizen: **browser**
-
