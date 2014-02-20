@@ -1,5 +1,6 @@
 #!/bin/bash
 HTML5_GROUP=../groupings/html5-platforms
+set +o histexpand
 
 echo -n "| "
 printf '%-25s' "Feature"
@@ -25,7 +26,16 @@ for f in ../features/*.md ; do
         printf '%-25s' "$title"
         echo -n " | "
         for platform in `cat $HTML5_GROUP`; do
-            printf '%-12s' `grep "^* $platform:" $f|sed -e "s/.*: *\*\*\([^\*]*\)\*\*.*/\1/"|tr -d "\n"`
+            line=`grep "^* $platform:" $f|tr -d "\n"`
+            value=`echo "$line"|sed -e "s/.*: *\*\*\([^\*]*\)\*\*.*/\1/"`
+            link=`echo "$line"|sed -e '/.*: [^\[]*\[[^]]*\](\([^)]*\)).*/!d;s//\1/'`
+            link_title=`echo "$line"|sed -e '/.*: [^\[]*\[\([^]]*\)\](.*/!d;s//\1/'`
+            if [ -n "$link" ]
+            then
+                echo -n "[$value]($link \"$link_title\")"
+            else
+                echo -n "$value"
+            fi
             echo -n "| "
         done
     echo
