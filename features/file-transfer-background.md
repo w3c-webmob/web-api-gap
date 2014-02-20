@@ -9,5 +9,4 @@ Ability to rqeuest for files to be downloaded or uploaded after the app is close
 * Phonegap:
 * FirefoxOS:
 * ChromeApps:
-* Tizen:
-
+* Tizen: **partial** [`tizen.download`](https://developer.tizen.org/dev-guide/2.2.1/org.tizen.web.device.apireference/tizen/download.html) (download only?)
