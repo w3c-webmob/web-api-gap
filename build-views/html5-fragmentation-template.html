@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html  lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>HTML5-based platforms fragmentation</title>
+    <link rel="stylesheet" href="http://www.w3.org/2007/08/video/style.css" type="text/css" media="all" />
+    <style type="text/css" media="screen and (max-width:800px)">
+      /**/
+      body { margin:0;}
+      /**/
+    </style>
+    <link rel="stylesheet" href="http://www.w3.org/2007/08/video/print.css" type="text/css" media="print" />
+    <style type="text/css" media="screen">
+      div#page { background-image:none;}
+
+      td { color: #777;}
+      table { border-collapse:collapse}
+      table.full { width:100%}
+      th, td { border-left:thin solid black; border-right: thin solid black; text-align:left;}
+      th[scope=row] { font-weight: normal;}
+      .browser {
+        background-color: lime;
+      }
+      .sysapp {
+          background-color: green;
+          color:white;
+      }
+      .different {
+        background-color: red;
+        color:white;
+      }
+      .other {
+        background-color: #eee;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="page">
+      <h1>HTML5-based platforms fragmentation</h1>
+    </div><!--
+	          <div id="navigation">
+		        <ul>
+		        </ul>
+	          </div>
+	          -->
+
+    <div id="main">
+      <p class="logo"><a href="http://www.w3.org/"><img alt="W3C" src="http://www.w3.org/Icons/w3c_home" /></a></p>
+<p>Key:</p>
+<ul>
+<li><span class="browser">browser</span>: re-use the API available in the browser</li>
+<li><span class="sysapp">sysapp</span>: re-use the API defined by SysApps</li>
+<li><span class="different">yes</span>: has an API, but not the one available in browsers or defined by sysapps</li>
+<li><span class="different">alternative</span>: supports the feature via an alternative mechanism, differently from the API available in browsers or defined by sysapps</li>
+<li><span class="other">no</span>: feature not available</li>
+<li><span class="other">planned</span>: planned feature, but not yet available</li>
+<li><span class="other">partial</span>: partially available feature</li>
+<li><span class="other">unknown</span>: unknown status for the feature</li>
+</ul>
+
+<p>Thus, columns with <span class="different">yes</span> or <span class="different">alternative</span> are potential sign of fragmentation among HTML5-based platforms.</p>
+
+$body$
+      <div id="footer">
+	    <address>
+          <span class="vcard"><a class="url fn" rel="author" href="http://www.w3.org/People/Dom/">Dominique
+              Haza&#235;l-Massieux</a></span>	    </address>
+      </div><!-- footer end -->
+    </div>
+    <script>
+      var trs = document.getElementsByTagName("tr");
+      for (var i = 0; i < trs.length; i++) {
+         var tr = trs[i];
+         var tds = tr.getElementsByTagName("td");
+         for (var j = 1 ; j < tds.length; j++) {
+           var td = tds[j];
+           if (j == 1) {
+              if (td.textContent == "yes") {
+                 td.classList.add("browser");
+              }
+           }
+           if (j == 2) {
+              if (td.textContent == "yes") {
+                 td.classList.add("sysapp");
+              }
+           }
+           if (td.textContent == "browser") {
+              td.classList.add("browser");
+           }
+           if (td.textContent == "sysapp") {
+              td.classList.add("sysapp");
+           }
+           if ((td.textContent == "yes" || td.textContent == "alternative") && j > 2) {
+              td.classList.add("different");
+           }
+           if (td.classList.length == 0) {
+              td.classList.add("other");
+           }
+         }
+      }
+    </script>
+  </body>
+</html>
