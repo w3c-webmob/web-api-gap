@@ -1,8 +1,8 @@
-# Feature name
-A more detailed description of the feature.
+# Messaging
+Ability to send and receive SMS, MMS, emails
 
-* browser:
-* sysapp:
+* browser: **partial** send with dedicated URL schemes; **alternative** via on-line services
+* sysapp: **yes**
 * iOS:
 * Android:
 * Windows 8:

@@ -1,13 +1,13 @@
-# Feature name
-A more detailed description of the feature.
+# NFC
+Read / write access to NFC-enabled devices
 
-* browser:
-* sysapp:
-* iOS:
+* browser: **no**
+* sysapp: **yes** [NFC API]()
+* iOS: **no**
 * Android:
 * Windows 8:
-* Phonegap:
-* FirefoxOS:
+* Phonegap: **no**
+* FirefoxOS: **yes** [WebNFC]()
 * ChromeApps:
-* Tizen:
+* Tizen: **sysapp**
 

@@ -1,5 +1,5 @@
-# Feature name
-A more detailed description of the feature.
+# CPU Wake
+Ability to keep the CPU active even with no current activity (?)
 
 * browser:
 * sysapp:

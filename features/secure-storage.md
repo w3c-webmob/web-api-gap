@@ -1,8 +1,8 @@
-# Feature name
-A more detailed description of the feature.
+# Secure storage 
+Ability to store data locally than can only be accessed when the device is unlocked.
 
-* browser:
-* sysapp:
+* browser: **no**
+* sysapp: **no**
 * iOS:
 * Android:
 * Windows 8:

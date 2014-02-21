@@ -1,5 +1,5 @@
-# Feature name
-A more detailed description of the feature.
+# Indoor location
+Ability to determine the user's location inside buildings
 
 * browser:
 * sysapp:

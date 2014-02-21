@@ -1,13 +1,13 @@
-# Feature name
-A more detailed description of the feature.
+# Wifi wake
+Ability to keep the Wifi network interface up even when the device is idle.
 
-* browser:
-* sysapp:
+* browser: **no**
+* sysapp: **no**
 * iOS:
 * Android:
 * Windows 8:
-* Phonegap:
-* FirefoxOS:
-* ChromeApps:
+* Phonegap: **no**
+* FirefoxOS: **yes**
+* ChromeApps: **yes**
 * Tizen:
 

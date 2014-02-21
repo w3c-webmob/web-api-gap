@@ -1,5 +1,5 @@
-# Feature name
-A more detailed description of the feature.
+# Media play
+Ability to play audio and video
 
 * browser:
 * sysapp:

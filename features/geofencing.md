@@ -1,5 +1,5 @@
-# Feature name
-A more detailed description of the feature.
+# Geofencing
+Ability to notify the user when she enters in a given geographical area (even if the app is not running?)
 
 * browser:
 * sysapp:

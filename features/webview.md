@@ -1,7 +1,7 @@
-# Feature name
-A more detailed description of the feature.
+# Web view
+Ability to display arbitrary Web content.
 
-* browser:
+* browser: **yes** via `iframe`, `window.open`, ...
 * sysapp:
 * iOS:
 * Android:

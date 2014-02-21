@@ -1,12 +1,12 @@
-# Feature name
-A more detailed description of the feature.
+#  Splashscreen
+Ability to display an image while the app is loading.
 
-* browser:
+* browser: **partial** (? via Service Worker?)
 * sysapp:
 * iOS:
 * Android:
 * Windows 8:
-* Phonegap:
+* Phonegap: **yes**
 * FirefoxOS:
 * ChromeApps:
 * Tizen:

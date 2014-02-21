@@ -1,13 +1,13 @@
-# Feature name
-A more detailed description of the feature.
+# Vibration
+Ability to make the device vibrate.
 
-* browser:
-* sysapp:
+* browser: **yes** [Vibration API]()
+* sysapp: **browser**
 * iOS:
 * Android:
 * Windows 8:
-* Phonegap:
-* FirefoxOS:
-* ChromeApps:
+* Phonegap: **yes**
+* FirefoxOS: **browser**
+* ChromeApps: **browser**
 * Tizen:
 

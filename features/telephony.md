@@ -1,7 +1,7 @@
-# Feature name
-A more detailed description of the feature.
+# Telephony
+Ability to connect to a phone network and dial numbers.
 
-* browser:
+* browser: **partial** via the `tel:` URL scheme, **alternative** via WebRTC
 * sysapp:
 * iOS:
 * Android:

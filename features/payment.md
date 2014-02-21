@@ -1,13 +1,13 @@
-# Feature name
-A more detailed description of the feature.
+# Payment
+Ability to pay quickly from an app.
 
-* browser:
+* browser: **partial** via HTML5 autocomplete, **alternative** via 3rd-party services
 * sysapp:
 * iOS:
 * Android:
 * Windows 8:
 * Phonegap:
-* FirefoxOS:
-* ChromeApps:
+* FirefoxOS: **yes** [MozPay]()
+* ChromeApps: **yes**
 * Tizen:
 

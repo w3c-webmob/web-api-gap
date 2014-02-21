@@ -1,7 +1,7 @@
-# Feature name
-A more detailed description of the feature.
+# Network information
+Ability to determine the network setup of the device
 
-* browser:
+* browser: **no** The [Network Information API]() has been abandoned for the time being
 * sysapp:
 * iOS:
 * Android:

@@ -1,8 +1,8 @@
-# Feature name
-A more detailed description of the feature.
+# Alarm
+Ability to notify the user at a pre-set time, even if the app is no longer running.
 
-* browser:
-* sysapp:
+* browser: **no**
+* sysapp: **yes**
 * iOS:
 * Android:
 * Windows 8:

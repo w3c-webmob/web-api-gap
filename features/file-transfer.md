@@ -10,4 +10,3 @@ Ability to upload file via HTTP POST.
 * FirefoxOS: **browser**
 * ChromeApps: **browser**
 * Tizen: **browser**
-

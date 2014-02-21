@@ -1,13 +1,13 @@
-# Feature name
-A more detailed description of the feature.
+# Screen wake
+Ability to keep the screen awake without user interaction.
 
-* browser:
-* sysapp:
+* browser: **no**
+* sysapp: **no**
 * iOS:
 * Android:
 * Windows 8:
 * Phonegap:
-* FirefoxOS:
-* ChromeApps:
+* FirefoxOS: **yes** [`navigator.requestWake`]()
+* ChromeApps: **yes** [`chrome.power`]()
 * Tizen:
 

@@ -1,13 +1,13 @@
-# Feature name
-A more detailed description of the feature.
+# USB
+Serial interface to USB devices (?)
 
-* browser:
+* browser: **no**
 * sysapp:
 * iOS:
 * Android:
 * Windows 8:
 * Phonegap:
-* FirefoxOS:
+* FirefoxOS: **yes** [WebUSB]()
 * ChromeApps:
 * Tizen:
 
