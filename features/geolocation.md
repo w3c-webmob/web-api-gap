@@ -8,5 +8,5 @@ Ability to read the device location as latitude/longitude/altitude
 * Windows 8: **yes** [`Windows.Devices.Geolocation.Geolocator`](http://msdn.microsoft.com/en-US/library/windows/apps/windows.devices.geolocation.geolocator)
 * Phonegap: **browser**
 * FirefoxOS: **browser**
-* ChromeApps: **yes** [`chrome.location`](http://developer.chrome.com/extensions/location) (adds `onLocationUpdate` to the **browser** API)
+* ChromeApps: **extension** [`chrome.location`](http://developer.chrome.com/extensions/location) (adds `onLocationUpdate` to the **browser** API)
 * Tizen: **browser**
