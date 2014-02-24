@@ -8,6 +8,7 @@ For each line in hte list, include one of the following values (using **bolding*
 * **unknown** (default if empty): no info gathered on this platform
 * **browser**: for HTML-based platforms, the feature is available and uses the same API as the one defined for browsers
 * **sysapp**: for HTML-based platforms, the feature is available and uses the same API as the one defined by sysapps
+* **extension**: for HTML-based platforms, the feature is available as defined by browsers or sysapps specs, but is extended with additional capabilities
 * **yes**: feature is available
 * **partial**: feature is partially available
 * **planned**: not available yet, but work on this feature has been announced

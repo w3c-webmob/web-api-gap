@@ -30,9 +30,13 @@
         background-color: red;
         color:white;
       }
+      .extension {
+        background-color:orange;
+      }
       .other {
         background-color: #eee;
       }
+      .sysapp a:link, .sysapp a:visited, .different a:link, .different a:visited { color: #eef;}
     </style>
   </head>
 
@@ -92,6 +96,10 @@ $body$
            if (td.textContent == "sysapp") {
               td.classList.add("sysapp");
            }
+           if (td.textContent == "extension") {
+              td.classList.add("extension");
+           }
+
            if ((td.textContent == "yes" || td.textContent == "alternative" || td.textContent == "partial") && j > 2) {
               td.classList.add("different");
            }
