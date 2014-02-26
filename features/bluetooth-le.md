@@ -1,5 +1,5 @@
-# Bluetooth Lower Energy
-Ability to communicate with Bluetooth Lower Energy devices
+# Bluetooth Low Energy
+Ability to communicate with Bluetooth Low Energy devices
 
 * browser: **no**
 * sysapp: **planned**? (phase 2 has a bluetooth API, not clear whether it would do BLE)
