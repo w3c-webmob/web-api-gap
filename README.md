@@ -26,4 +26,4 @@ Defining what a feature is is tricky; the following documents can be used as sou
 * [Cordova API reference](http://cordova.apache.org/docs/en/3.3.0/#API%20Reference)
 * [Tizen API References](https://developer.tizen.org/dev-guide/2.2.1/org.tizen.web.appprogramming/html/api_reference/api_reference.htm)
 * [Mozilla WebAPI](https://wiki.mozilla.org/WebAPI)
-* [Chrome Platform APIs](http://developer.chrome.com/extensions/api_index)
+* [Chrome Platform APIs](http://developer.chrome.com/apps/api_index)
