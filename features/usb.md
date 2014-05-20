@@ -7,7 +7,7 @@ Serial interface to USB devices (?)
 * Android:
 * Windows 8:
 * Phonegap:
-* FirefoxOS: **yes** [WebUSB]()
+* FirefoxOS: **yes** [WebUSB](https://wiki.mozilla.org/WebAPI/WebUSB)
 * ChromeApps:
 * Tizen:
 
