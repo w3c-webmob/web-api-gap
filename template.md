@@ -10,4 +10,5 @@ A more detailed description of the feature.
 * FirefoxOS:
 * ChromeApps:
 * Tizen:
+* Amazon Fire OS:
 
