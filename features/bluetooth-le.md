@@ -9,4 +9,4 @@ Ability to communicate with Bluetooth Low Energy devices
 * Phonegap: **no**
 * FirefoxOS: **no** ([B2G/Bluettoh](https://wiki.mozilla.org/B2G/Bluetooth) states that BLE is unsupported, so a priori [BluetoothManager](https://wiki.mozilla.org/WebAPI/WebBluetooth) does not suffice)
 * ChromeApps: **yes**, seems only in central role (as part of [`chrome.bluetooth`](http://developer.chrome.com/apps/bluetooth))
-* Tizen: **unknown** (unclear if [Bluetooh interface](https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/bluetooth.html) suffices)
+* Tizen: **unknown** (unclear if [Bluetooth interface](https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/bluetooth.html) suffices)
