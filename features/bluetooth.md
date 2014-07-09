@@ -9,4 +9,4 @@ Ability to communicate with Bluetooth Lower Energy devices
 * Phonegap: **no**
 * FirefoxOS: **yes** [BluetoothManager](https://wiki.mozilla.org/WebAPI/WebBluetooth)
 * ChromeApps: **yes** [`chrome.bluetooth`](http://developer.chrome.com/apps/bluetooth)
-* Tizen: **yes** [Bluetooh interface](https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/bluetooth.html)
+* Tizen: **yes** [Bluetooth interface](https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/bluetooth.html)
