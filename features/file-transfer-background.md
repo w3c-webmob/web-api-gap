@@ -1,9 +1,9 @@
 # Background file transfer
 Ability to rqeuest for files to be downloaded or uploaded after the app is closed.
 
-* browser: **partial** with Beacons and ServiceWorker
-* sysapp:
-* iOS:
+* browser: **yes** [Web Background Synchronization](https://slightlyoff.github.io/BackgroundSync/spec/)
+* sysapp: **browser**
+* iOS: **yes** [`UIApplication::setMinimumBackgroundFetchInterval`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/Reference/Reference.html#//apple_ref/occ/instm/UIApplication/setMinimumBackgroundFetchInterval:)
 * Android:
 * Windows 8: **yes** [`Windows.Networking.BackgroundTransfer`](http://msdn.microsoft.com/library/windows/apps/br207242)
 * Phonegap:
