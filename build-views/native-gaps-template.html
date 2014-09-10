@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html  lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>Gaps to Native</title>
+    <link rel="stylesheet" href="http://www.w3.org/2007/08/video/style.css" type="text/css" media="all" />
+    <style type="text/css" media="screen and (max-width:800px)">
+      /**/
+      body { margin:0;}
+      /**/
+    </style>
+    <link rel="stylesheet" href="http://www.w3.org/2007/08/video/print.css" type="text/css" media="print" />
+    <style type="text/css" media="screen">
+      div#page { background-image:none;}
+
+      td { color: #777;}
+      table { border-collapse:collapse}
+      table.full { width:100%}
+      th, td { border-left:thin solid black; border-right: thin solid black; text-align:left;}
+      th[scope=row] { font-weight: normal;}
+      .yes {
+        background-color: lime;
+      }
+      .no {
+        background-color: red;
+        color:white;
+      }
+      .sysapp a:link, .sysapp a:visited, .different a:link, .different a:visited { color: #eef;}
+    </style>
+  </head>
+
+  <body>
+    <div id="page">
+      <h1>Gaps to Native</h1>
+    </div><!--
+	          <div id="navigation">
+		        <ul>
+		        </ul>
+	          </div>
+	          -->
+
+    <div id="main">
+      <p class="logo"><a href="http://www.w3.org/"><img alt="W3C" src="http://www.w3.org/Icons/w3c_home" /></a></p>
+      <p>The table below lists features that are available in native platforms but for which no specification for browsers is available.</p>
+
+$body$
+      <div id="footer">
+	    <address>
+          <span class="vcard"><a class="url fn" rel="author" href="http://www.w3.org/People/Dom/">Dominique
+              Haza&#235;l-Massieux</a></span>	    </address>
+      </div><!-- footer end -->
+    </div>
+    <script>
+      var trs = document.getElementsByTagName("tr");
+      for (var i = 0; i < trs.length; i++) {
+         var tr = trs[i];
+         var tds = tr.getElementsByTagName("td");
+         for (var j = 1 ; j < tds.length; j++) {
+              var td = tds[j];
+              if (td.textContent == "yes") {
+                 td.classList.add("yes");
+              } else {
+                 td.classList.add("no");
+              }
+         }
+      }
+    </script>
+  </body>
+</html>
