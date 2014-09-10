@@ -21,11 +21,9 @@ echo
 for f in ../features/*.md ; do
     title=`grep "^#" $f|tr -d "#\n"`
     has_empty_data=`grep "^\* " $f|egrep -v "^\*.*: *\*\*"`
-    has_browser_gap=`egrep "^\* browser: \*\*[np].*\*\*" $f`
-    if [ -z "$has_empty_data" ]
+    has_browser_gap=`egrep "^\* browser: \*\*[^y].*\*\*" $f`
+    if [ -n "$has_browser_gap" ]
     then
-        if [ -n "$has_browser_gap" ]
-        then
         echo -n "|"
         printf '%-25s' "$title"
         echo -n " | "
@@ -43,6 +41,5 @@ for f in ../features/*.md ; do
             echo -n "| "
         done
     echo
-    fi
     fi
 done
