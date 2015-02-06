@@ -1,3 +1,8 @@
+### Web API Gap
+
+** Note **: please use document_ideas.md for ideas for the new API Gap document.
+
+
 This repository is used to compare the features available across various mobile platforms, with a specific focus on how the Web fares in that comparison.
 
 Each feature is documented as a separate markdown file in the [`features` directory](features/).
