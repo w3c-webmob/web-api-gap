@@ -1,9 +1,11 @@
-### Web API Gap
-
+## API Gap Repo
 ** Note **: please use document_ideas.md for ideas for the new API Gap document.
 
+### What is the API Gap Project Doing?
+The API Gap Project is producing a document comparing the APIs and features available across various mobile platforms, and how web APIs and functionality compares. As APIs will contiually be added to native platforms and the web this document will continue to evolve.  
 
-This repository is used to compare the features available across various mobile platforms, with a specific focus on how the Web fares in that comparison.
+### A little more about this repository
+As well as holding the API document, this repository is used to compare the features available across various mobile platforms, with a specific focus on how the Web fares in that comparison.
 
 Each feature is documented as a separate markdown file in the [`features` directory](features/).
 
@@ -21,7 +23,7 @@ For each line in hte list, include one of the following values (using **bolding*
 * **no**: feature is not available
 * **N/A**: feature is not applicable to this platform
 
-## List of features
+### List of features
 Defining what a feature is is tricky; the following documents can be used as source of inspiration:
 
 * [iOS list key reference](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/iPhoneOSKeys.html#//apple_ref/doc/uid/TP40009252-SW2)
