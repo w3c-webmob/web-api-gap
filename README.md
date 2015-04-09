@@ -1,11 +1,18 @@
 ## API Gap Repo
-** Note **: please use document_ideas.md for ideas for the new API Gap document.
 
 ### What is the API Gap Project Doing?
 The API Gap Project is producing a document comparing the APIs and features available across various mobile platforms, and how web APIs and functionality compares. As APIs will contiually be added to native platforms and the web this document will continue to evolve.  
 
+* The document is held in the [document/ directory](document/)
+* All other directories and files are currently being used to list the apis we need to include in the document, these will be migrated to the document soon.
+
+
+### How do I contribute to the document?
+Please feel free to send in pull requests! Please also raise issues as to how the document should be structured, what APIs we should include and other editorial hints and tips. 
+
+
 ### A little more about this repository
-As well as holding the API document, this repository is used to compare the features available across various mobile platforms, with a specific focus on how the Web fares in that comparison.
+This repository was set up to compare the features available across various mobile platforms, with a specific focus on how the Web fares in that comparison. The /document is a result of this work.
 
 Each feature is documented as a separate markdown file in the [`features` directory](features/).
 
