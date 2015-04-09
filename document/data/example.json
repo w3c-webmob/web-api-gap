@@ -1,0 +1,30 @@
+{
+   "coremob" : "fulfills",
+   "wpd" : {
+      "url" : "http://docs.webplatform.org/wiki/tutorials/device_orientation",
+      "label" : "Using device orientation"
+   },
+   "tests" : {
+      "level" : "low",
+      "repo" : "",
+      "url" : "https://dvcs.w3.org/hg/geo/file/tip",
+      "label" : "Started"
+   },
+   "impl" : {
+      "level" : "high",
+      "label" : "Well deployed",
+      "id" : "accelerometer"
+   },
+   "TR" : "http://www.w3.org/TR/orientation-event/",
+   "editors" : {
+      "url" : "http://w3c.github.io/deviceorientation/spec-source-orientation.html"
+   },
+   "wdc" : {
+      "url" : "http://www.w3devcampus.com/writing-great-web-applications-for-mobile/",
+      "label" : "Mobile Web 2: Programming Web Applications on-line course"
+   },
+   "stability" : {
+      "level" : "medium",
+      "label" : "Stabilizing, but with planned updates"
+   }
+}

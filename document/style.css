@@ -1,0 +1,114 @@
+h1, h2, h3 { font-family: "Gill Sans", Verdana, sans-serif;}
+
+body { font-family: serif;}
+
+    dl.items {margin: 1em 2em;}
+    dl.items dt {margin: 1.5em 0 0 1em;}
+    dl.items dt a {font-weight: bold;}
+    dl.items dd {margin: 0.5em 0 0 1em;}
+    acronym { border-bottom: black dashed 1px }
+    div#navigation li.current { color: white;
+   font-weight: bold;
+ }
+div#page { background-image:none; }
+div#page, #main { max-width:60em; margin-right:auto;margin-left:auto; }
+table { border-collapse:collapse;}
+th, td { border-left:thin solid black; border-right: thin solid black; text-align:left;}
+td.high { background-color:#efe;}
+td.medium { background-color: #ffe;}
+td.low { background-color: #fed;}
+p.figure { text-align:center; font-style:italic;}
+
+@media print {
+h2 { string-set: chapter-title content() }
+
+body {
+    page: main;
+    counter-reset: page 1
+}
+@page main:first {
+ @top-right { content: "";}
+ @top-left { content: "";}
+}
+@page main, rotated {
+    @top-left { content: "Standards for Web Applications on Mobile" ;font-family: arial; font-variant: small-caps; font-size:0.8em;}
+    @top-right { content: string(chapter-title); font-family: arial; font-variant: small-caps; font-size:0.8em;}
+    @bottom-right {
+        content: counter(page) "/" counter(pages); font-size:0.8em;
+    }
+}
+body, #main, div#page { padding:0; margin:0}
+div#page h1 { padding: 0.3em;}
+object, img { max-width: 100% !important}
+@page rotated { size: landscape
+ }
+table { page: rotated }
+.githubribbon { display: none;}
+
+a[href^="#"] { text-decoration: none; color: inherit;}
+a[href^="#"]::after {
+    content: " (page " target-counter(attr(href), page) ")"
+}
+
+ol a[href^="#"] { text-decoration: none; color: inherit;}
+ol a[href^="#"]::after {
+    content: leader(".")  target-counter(attr(href), page);
+}
+
+
+a[href^="http"]::after {
+  float:footnote;
+  content: "  " attr(href);
+  font-weight:normal;
+  font-size:0.8em;
+  font-family: sans-serif ;
+  font-style:normal;
+  color:#333;
+  display: none;
+}
+
+.versions a[href^="http"] { text-decoration: none; color: inherit;} 
+a.dupref::after, .versions a[href^="http"]::after {
+  content: none;
+  float: none;
+}
+
+a[href^="http"]::footnote-call {
+    display:block;
+
+}
+
+@page {
+    @footnotes {
+	border-top: solid black thin;
+	padding-top: 8pt
+    }
+}
+
+table { width: 120%; table-layout:fixed;}
+}
+
+@media screen and (max-width:800px) {
+body { margin:0;}
+
+}
+
+li.recstage img { vertical-align:middle; display:block; float:left; margin-right:0.4em;}
+li.recstage:first-child { border-top:thin gray dotted;}
+li.recstage { list-style-type:none; border-bottom:thin gray dotted; clear:left; min-height:53px; padding:0.5em 0;}
+li.recstage:nth-child(even) { background-color: #f9f9f9;}
+
+#rectrack { padding-left:0;}
+
+/* for imported SVG */
+/* editors activty */
+text { font-size:10px; text-anchor:middle;}
+line { stroke: #AAF; stroke-width:5px; }
+text.past { fill:#FFF;}
+
+/* implementation information */
+.unknown, .not { opacity: 0.3 } 
+.partial { opacity: 0.8} 
+text.symbol { font-size:40px;} 
+text.versions { font-size:20px; text-anchor:start;}
+.logo img { vertical-align: middle;}
