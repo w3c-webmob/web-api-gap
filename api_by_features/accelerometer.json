@@ -27,7 +27,7 @@
         	"notes": "has “shake” detection, update interval setting",
         	"dependancies": ""
         },
-        "Phonegap": {
+        "Cordova": {
         	"source": "native",
         	"name": "navigator.accelerometer",
         	"docs": "http://cordova.apache.org/docs/en/3.3.0/cordova_accelerometer_accelerometer.md.html#Accelerometer",
