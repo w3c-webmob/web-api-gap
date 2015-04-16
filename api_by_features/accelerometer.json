@@ -9,8 +9,8 @@
         "sysapp": "browser",
         "security concerns" : "",
         "iOS": {
-			"source": "native",
-			"name": "UIAccelerometer",
+	    "source": "native",
+	    "name": "UIAccelerometer",
             "docs": "https://developer.apple.com/library/ios/documentation/uikit/reference/UIAccelerometer_Class/Reference/UIAccelerometer.html",
             "dependancies": ""
         },
