@@ -1,0 +1,45 @@
+{
+    "Baterry": {
+    	"description": "Ability to read level and mode of charge of baterry.",
+        "browser": {
+        	"API": "Baterry Status API",
+        	"spec_url": "http://www.w3.org/TR/battery-status/",
+        	"working group": ""
+        },
+        "sysapp": "browser",
+        "security concerns" : "",
+        "iOS": {
+	    "source": "native",
+	    "name": "UIDevice.battery",
+            "docs": "https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIDevice_Class/index.html#//apple_ref/occ/instp/UIDevice/batteryLevel",
+            "dependancies": ""
+        },
+        "Android": {
+        	"source": "native",
+        	"name": "BatteryManager",
+        	"docs": "http://developer.android.com/reference/android/os/BatteryManager.html",
+        	"dependancies": ""
+        },
+        "Windows 8": {
+        	"source": "native",
+        	"name": "Windows.Phone.Devices.Power.Battery",
+        	"docs": "https://msdn.microsoft.com/library/windows/apps/windows.phone.devices.power.battery%28v=vs.105%29.aspx",        	
+        	"dependancies": ""
+        },
+        "Cordova": {
+        	"source": "native",
+        	"name": "org.apache.cordova.battery-status",
+        	"docs": "http://plugins.cordova.io/#/package/org.apache.cordova.battery-status",
+        	"dependancies": ""
+        },
+        "FirefoxOS": {
+        	"source": "browser"
+        },
+        "ChromeApps": {
+        	"source": "no"
+        },
+        "Tizen": {
+        	"source": "browser"
+        }
+    }
+}
