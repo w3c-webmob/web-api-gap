@@ -40,6 +40,12 @@
         },
         "Tizen": {
         	"source": "browser"
-        }
+        },
+	"Blackberry": {
+    	        "source": "native",
+        	"name": "BatteryChargingState",
+        	"docs": "http://developer.blackberry.com/native/reference/cascades/bb__device__batterychargingstate.html?f=battery",
+        	"dependancies": ""	    
+	}
     }
 }

@@ -41,3 +41,4 @@ Defining what a feature is is tricky; the following documents can be used as sou
 * [Tizen API References](https://developer.tizen.org/dev-guide/2.2.1/org.tizen.web.appprogramming/html/api_reference/api_reference.htm)
 * [Mozilla WebAPI](https://wiki.mozilla.org/WebAPI)
 * [Chrome Platform APIs](http://developer.chrome.com/apps/api_index)
+* [Blackberry APIs](http://developer.blackberry.com/native/reference/cascades/)
