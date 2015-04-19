@@ -34,7 +34,7 @@
             "name": "Calendar API",
             "docs": "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/calendar.html"
         },
-	"Blackberry" {
+	"Blackberry": {
             "source": "native",
             "name": "Calendar",
             "docs": "http://developer.blackberry.com/native/reference/cascades/app_integration_calendar.html?f=calendar"

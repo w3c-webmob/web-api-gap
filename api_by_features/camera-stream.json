@@ -27,7 +27,7 @@
         "FirefoxOS": "browser",
         "ChromeApps": "browser",
         "Tizen": "browser",
-	"Blackberry" {
+	"Blackberry": {
             "source": "native",
             "name": "Camera",
             "docs": "http://developer.blackberry.com/native/reference/cascades/bb__cascades__multimedia__camera.html"
