@@ -1,0 +1,40 @@
+{
+    "Compass": {
+    	"description": "Ability to detect orientation compared to magnetic North; see also access to raw values from magnetometer.",
+        "browser": {
+	    "source": "native",
+	    "name": "DeviceOrientation event",
+	    "docs": "http://w3c.github.io/deviceorientation/spec-source-orientation.html"
+	},
+        "sysapp": "browser",
+        "security concerns" : "",
+        "iOS": {
+	    "source": "native",
+	    "name": "CLLocationManager.headingOrientation",
+            "docs": "https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocationManager_Class/CLLocationManager/CLLocationManager.html"
+        },
+        "Android": {
+            "source": "native",
+            "name": "Motion sensors API",
+            "docs": "http://developer.android.com/reference/android/hardware/SensorManager.html#getOrientation%28float%5B%5D,%20float%5B%5D%29"
+        },
+        "Windows 8": {
+            "source": "native",
+            "name": "compass.getCurrentReading",
+            "docs": "http://msdn.microsoft.com/en-US/library/windows/apps/windows.devices.sensors.compass.getcurrentreading"
+        },
+        "Cordova": {
+	    "source": "native",
+            "name": "org.apache.cordova.device-orientation",
+            "docs": "http://plugins.cordova.io/#/package/org.apache.cordova.device-orientation"
+	},
+        "FirefoxOS": "browser",
+        "ChromeApps": "browser",
+        "Tizen": "browser",
+	"Blackberry" {
+            "source": "native",
+            "name": "QCompass",
+            "docs": "http://developer.blackberry.com/native/reference/cascades/qcompass.html"
+	}
+    }
+}
