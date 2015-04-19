@@ -41,6 +41,11 @@
         },
         "Tizen": {
             "source": "browser"
-        }
+        },
+	"Blackberry": {
+	    "source": "native",
+	    "name": "Accelerometers",
+	    "docs": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_accelerometer_8h.html?f=accelerometer"
+	}
     }
 }
