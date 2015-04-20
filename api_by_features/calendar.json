@@ -1,0 +1,43 @@
+{
+    "Calendar": {
+    	"description": "Ability to read and write information from the user calendar",
+        "browser": {
+	    "source": "partial",
+	    "note": "Save events via icalendar downloads; as an alternative using server-side APIs for externally managed calendars"
+	},
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": {
+	    "source": "native",
+	    "name": "EventKit",
+            "docs": "https://developer.apple.com/library/ios/documentation/DataManagement/Conceptual/EventKitProgGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004759-SW1"
+        },
+        "Android": {
+            "source": "native",
+            "name": "Calendar Provider",
+            "docs": "http://developer.android.com/guide/topics/providers/calendar-provider.html"
+        },
+        "Windows 8": {
+            "source": "partial",
+            "name": ["SaveAppointmentTask", "AppointmentManager,", "Live Connect API"],
+            "docs": ["https://msdn.microsoft.com/library/windows/apps/microsoft.phone.tasks.saveappointmenttask", "https://msdn.microsoft.com/en-us/library/windows/apps/windows.applicationmodel.appointments.appointmentmanager.aspx", "https://msdn.microsoft.com/en-us/onedrive/dn632140"]
+        },
+        "Cordova": "",
+        "FirefoxOS": {
+            "source": "partial",
+            "name": "WebAPI/CalendarAPI",
+            "docs": "https://wiki.mozilla.org/WebAPI/CalendarAPI"
+	},
+        "ChromeApps": "",
+        "Tizen": {
+	    "source": "partial",
+            "name": "Calendar API",
+            "docs": "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/calendar.html"
+        },
+	"Blackberry": {
+            "source": "native",
+            "name": "Calendar",
+            "docs": "http://developer.blackberry.com/native/reference/cascades/app_integration_calendar.html?f=calendar"
+	}
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "Bluetooth": {
+    	"description": "Ability to communicate with Bluetooth devices.",
+        "browser": "",
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": {
+	    "source": "native",
+	    "name": "Core Bluetooth Programming Guide",
+            "docs": "https://developer.apple.com/library/ios/documentation/NetworkingInternetWeb/Conceptual/CoreBluetooth_concepts/CoreBluetoothBackgroundProcessingForIOSApps/PerformingTasksWhileYourAppIsInTheBackground.html#//apple_ref/doc/uid/TP40013257-CH7-SW1"
+        },
+        "Android": {
+            "source": "native",
+            "name": "Bluetooth",
+            "docs": "http://developer.android.com/guide/topics/connectivity/bluetooth.html"
+        },
+        "Windows 8": {
+            "source": "native",
+            "name": "Bluetooth for Windows Phone 8",
+            "docs": "https://msdn.microsoft.com/library/windows/apps/jj207007%28v=vs.105%29.aspx"
+        },
+        "Cordova": "",
+        "FirefoxOS": {
+            "source": "partial",
+            "name": "WebAPI/WebBluetooth",
+            "docs": "https://wiki.mozilla.org/WebAPI/WebBluetooth"
+	},
+        "ChromeApps": {
+            "source": "partial",
+            "name": "chrome.bluetooth",
+            "docs": "https://developer.chrome.com/apps/bluetooth"
+        },
+        "Tizen": {
+	    "source": "partial",
+            "name": "Bluetooth API",
+            "docs": "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/bluetooth.html"
+        },
+	"Blackberry": {
+            "source": "native",
+            "name": "Bluetooth device management (btdevice.h)",
+            "docs": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bluetooth.lib_ref/topic/about_btdevice_8h.html?f=bluetooth"
+	}
+    }
+}

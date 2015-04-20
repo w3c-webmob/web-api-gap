@@ -2,9 +2,9 @@
     "Accelerometer": {
     	"description": "Ability to read data from the accelerometer.",
         "browser": {
-        	"API": "`DeviceMotion` Event",
-        	"spec_url": "http://dev.w3.org/geo/api/spec-source-orientation.html",
-        	"working group": ""
+            "API": "`DeviceMotion` Event",
+            "spec_url": "http://dev.w3.org/geo/api/spec-source-orientation.html",
+            "working group": ""
         },
         "sysapp": "browser",
         "security concerns" : "",
@@ -15,32 +15,37 @@
             "dependancies": ""
         },
         "Android": {
-        	"source": "native",
-        	"name": "Motion sensors",
-        	"docs": "http://developer.android.com/guide/topics/sensors/sensors_motion.html",
-        	"dependancies": ""
+            "source": "native",
+            "name": "Motion sensors",
+            "docs": "http://developer.android.com/guide/topics/sensors/sensors_motion.html",
+            "dependancies": ""
         },
         "Windows 8": {
-        	"source": "native",
-        	"name": "Windows.Devices.Sensors.Accelerometer",
-        	"docs": "http://msdn.microsoft.com/en-us/library/windows/apps/windows.devices.sensors.accelerometer",
-        	"notes": "has “shake” detection, update interval setting",
-        	"dependancies": ""
+            "source": "native",
+            "name": "Windows.Devices.Sensors.Accelerometer",
+            "docs": "http://msdn.microsoft.com/en-us/library/windows/apps/windows.devices.sensors.accelerometer",
+            "notes": "has “shake” detection, update interval setting",
+            "dependancies": ""
         },
         "Cordova": {
-        	"source": "native",
-        	"name": "navigator.accelerometer",
-        	"docs": "http://cordova.apache.org/docs/en/3.3.0/cordova_accelerometer_accelerometer.md.html#Accelerometer",
-        	"dependancies": ""
+            "source": "native",
+            "name": "navigator.accelerometer",
+            "docs": "http://cordova.apache.org/docs/en/3.3.0/cordova_accelerometer_accelerometer.md.html#Accelerometer",
+            "dependancies": ""
         },
         "FirefoxOS": {
-        	"source": "browser"
+            "source": "browser"
         },
         "ChromeApps": {
-        	"source": "browser"
+            "source": "browser"
         },
         "Tizen": {
-        	"source": "browser"
-        }
+            "source": "browser"
+        },
+	"Blackberry": {
+	    "source": "native",
+	    "name": "Accelerometers",
+	    "docs": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_accelerometer_8h.html?f=accelerometer"
+	}
     }
 }
