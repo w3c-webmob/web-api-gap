@@ -1,0 +1,46 @@
+{
+    "Contacts": {
+    	"description": "Ability to read/write access to the addressbook.",
+        "browser": {
+	    "source": "partial",
+	    "note": "Write to addressbook via v-card, read (some) data via input.autocomplete keys?; alternative via access to on-line addressbooks"
+	},
+        "sysapp": {
+	    "source": "native",
+	    "name": "ContactsManager API",
+	    "docs": "http://www.w3.org/2012/sysapps/contacts-manager-api/"
+	},
+        "security concerns" : "",
+        "iOS": {
+	    "source": "native",
+	    "name": "Address Book Programming Guide",
+            "docs": "https://developer.apple.com/library/ios/documentation/ContactData/Conceptual/AddressBookProgrammingGuideforiPhone/Introduction.html"
+        },
+        "Android": {
+            "source": "native",
+            "name": "ContactsContract",
+            "docs": "http://developer.android.com/reference/android/provider/ContactsContract.html"
+        },
+        "Windows 8": {
+            "source": "native",
+            "name": "ContactManager",
+            "docs": "http://msdn.microsoft.com/en-us/library/windows/apps/windows.applicationmodel.contacts.contactmanager.aspx"
+        },
+        "Cordova": {
+	    "source": "native",
+            "name": "Contacts",
+            "docs": "http://cordova.apache.org/docs/en/3.3.0/cordova_contacts_contacts.md.html#Contacts"
+	},
+        "FirefoxOS": "sysapp",
+        "ChromeApps": {
+	    "source": "alternative",
+	    "note": "Access to on-line service Google Contacts"
+	},
+        "Tizen": "sysapp",
+	"Blackberry": {
+            "source": "native",
+            "name": "Contacts",
+            "docs": "http://developer.blackberry.com/native/reference/cascades/app_integration_contacts.html?f=contacts"
+	}
+    }
+}
