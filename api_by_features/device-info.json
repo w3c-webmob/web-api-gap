@@ -1,0 +1,47 @@
+{
+    "Device Information": {
+    	"description": "Information about the device (model) and unique identifier.",
+        "browser": {
+	    "source": "partial",
+	    "note": "User-Agent string and cookies or local storage; cross-origin unique identifier would violate privacy expectations (with is sometimes emulated via fingerprinting)"
+	},
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": {
+	    "source": "native",
+	    "name": "UIDevice",
+            "docs": "https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIDevice_Class/Reference/UIDevice.html#//apple_ref/occ/instp/UIDevice/identifierForVendor",
+	    "note": "Device id is per-app (identifierForVendor) starting with iOS7"
+        },
+        "Android": {
+            "source": "native",
+            "name": "android.os.Build",
+            "docs": "http://developer.android.com/reference/android/os/Build.html",
+	    "note": "android.os.Build for model, and unique id via [android.provider.Setting.Secure.ANDROID_ID]http://developer.android.com/reference/android/provider"
+        },
+        "Windows 8": {
+            "source": "native",
+            "name": "Microsoft.Phone.Info.DeviceStatus",
+            "docs": "http://msdn.microsoft.com/en-us/library/windowsphone/develop/ff941122%28v=vs.105%29.aspx",
+	    "note": "Windows.Phone.System.Analytics.HostInformation.PublisherHostId device id per publisher on http://msdn.microsoft.com/en-us/library/windowsphone/develop/windows.phone.system.analytics.hostinformation.publisherhostid%28v=vs.105%29.aspx"
+        },
+        "Cordova": {
+	    "source": "native",
+            "name": "Device",
+            "docs": "http://cordova.apache.org/docs/en/3.3.0/cordova_device_device.md.html#Device"
+	},
+        "FirefoxOS": "browser",
+        "ChromeApps": "browser",
+        "Tizen": {
+	    "source": "native",
+            "name": "tizen.systeminfo.getCapabilities()",
+            "docs": "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/systeminfo.html",
+	    "note": "duid only avialble with SIM card"
+	},
+	"Blackberry": {
+            "source": "native",
+            "name": "Device information (deviceinfo.h)",
+            "docs": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_deviceinfo_8h.html?f=device"
+	}
+    }
+}
