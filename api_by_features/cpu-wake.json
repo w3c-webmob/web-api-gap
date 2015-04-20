@@ -1,0 +1,16 @@
+{
+    "CPU Wake": {
+    	"description": "Ability to keep the CPU active even with no current activity.",
+        "browser": "",
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": "",
+        "Android": "",
+        "Windows 8": "",
+        "Cordova": "",
+        "FirefoxOS": "",
+        "ChromeApps": "",
+        "Tizen": "",
+	"Blackberry": ""
+    }
+}
