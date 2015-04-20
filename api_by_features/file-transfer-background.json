@@ -1,0 +1,39 @@
+{
+    "Background file transfer": {
+    	"description": "Ability to rqeuest for files to be downloaded or uploaded after the app is closed",
+        "browser": {
+	    "source": "native",
+	    "name": ["Web Background Synchronization",
+		     "Web Workers"],
+	    "docs": ["https://slightlyoff.github.io/BackgroundSync/spec/",
+		     "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers"]
+	},
+        "sysapp": "browser",
+        "security concerns" : "",
+        "iOS": {
+	    "source": "native",
+	    "name": "UIApplication::setMinimumBackgroundFetchInterval",
+            "docs": "https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/Reference/Reference.html#//apple_ref/occ/instm/UIApplication/setMinimumBackgroundFetchInterval:"
+        },
+        "Android": {
+            "source": "native",
+            "name": "BackgroundManager",
+            "docs": "https://developer.android.com/reference/android/support/v17/leanback/app/BackgroundManager.html"
+        },
+        "Windows 8": {
+            "source": "native",
+            "name": "Windows.Networking.BackgroundTransfer",
+            "docs": "http://msdn.microsoft.com/library/windows/apps/br207242"
+        },
+        "Cordova": "",
+        "FirefoxOS": "",
+        "ChromeApps": "",
+        "Tizen": {
+	    "source": "partial",
+            "name": "tizen.download",
+            "docs": "https://developer.tizen.org/dev-guide/2.2.1/org.tizen.web.device.apireference/tizen/download.html",
+	    "note": "download only"
+	},
+	"Blackberry": ""
+    }
+}
