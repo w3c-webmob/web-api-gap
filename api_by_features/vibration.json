@@ -1,0 +1,37 @@
+{
+    "Vibration": {
+    	"description": "Ability to make the device vibrate",
+        "browser": {
+	    "api": "Vibration API",
+	    "url": "http://www.w3.org/TR/vibration/",
+	    "working group": "W3C"
+	},
+        "sysapp": "browser",
+        "security concerns" : "",
+        "iOS": {
+	    "api": "AudioServicesPlaySystemSound",
+	    "url": "https://developer.apple.com/library/ios/documentation/AudioToolbox/Reference/SystemSoundServicesReference/Reference/reference.html#//apple_ref/c/func/AudioServicesPlaySystemSound",
+	    "working group": "Apple",
+	    "note": "doesn’t allow custom vibration patterns"
+	},
+        "Android": {
+	    "api": "android.os.vibrator",
+	    "url": "http://developer.android.com/reference/android/os/Vibrator.html",
+	    "working group": "Google"
+	},
+        "Windows 8": {
+	    "api": "Microsoft.Devices.VibrateController",
+	    "url": "http://msdn.microsoft.com/en-us/library/windowsphone/develop/jj206994%28v=vs.105%29.aspx",
+	    "working group": "Microsoft"
+	},
+        "Cordova": "browser",
+        "FirefoxOS": "browser",
+        "ChromeApps": "browser",
+        "Tizen": "browser",
+	"Blackberry": {
+	    "api": "Vibration (vibration.h)",
+	    "url": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_vibration_8h.html?f=vibration",
+	    "working group": "Blackberry"
+	}
+    }
+}
