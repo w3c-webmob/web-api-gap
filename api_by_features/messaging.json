@@ -1,0 +1,45 @@
+{
+    "Messaging": {
+    	"description": "Ability to send and receive SMS, MMS",
+        "browser": {
+	    "note": "partial send with dedicated URL schemes; alternative via on-line services"
+	},
+        "sysapp": {
+	    "api": "Messaging API",
+	    "url": "http://www.w3.org/2012/sysapps/messaging/",
+	},
+        "security concerns" : "",
+        "iOS": {
+	    "api": "MFMessageComposeViewController",
+	    "url": "https://developer.apple.com/library/ios/documentation/MessageUI/Reference/MFMessageComposeViewController_class/Reference/Reference.html",
+	    "working group": ""
+	},
+        "Android": {
+	    "api": "SmsManager",
+	    "url": "http://developer.android.com/reference/android/telephony/SmsManager.html",
+	    "working group": ""
+	},
+        "Windows 8": {
+	    "api": "Windows.Devices.Sms",
+	    "url": "http://code.msdn.microsoft.com/windowsapps/Sms-SendReceive-fa02e55e",
+	    "working group": ""
+	},
+        "Cordova": {
+	    "api": "SMS PLugin",
+	    "url": "https://github.com/aharris88/phonegap-sms-plugin",
+	    "working group": ""
+	},
+        "FirefoxOS": {
+	    "api": "WebSMS",
+	    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSMS_API",
+	    "working group": ""
+	},
+        "ChromeApps": "",
+        "Tizen": {
+	    "api": "Messaging API",
+	    "url": "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/messaging.html",
+	    "working group": ""
+	},
+	"Blackberry": ""
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "File upload": {
+    	"description": "Ability to upload file via HTTP POST",
+        "browser": {
+	    "source": "native",
+	    "name": ["XMLHTTPRequest",
+		     "FileReader",
+		     "FormData"],
+	    "docs": ["https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest",
+		     "https://developer.mozilla.org/en-US/docs/Web/API/FileReader",
+		     "https://developer.mozilla.org/en-US/docs/Web/API/FormData"]
+	},
+        "sysapp": "browser",
+        "security concerns" : "",
+        "iOS": {
+	    "source": "native",
+	    "name": "NSURLRequest",
+            "docs": "https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSURLRequest_Class/Reference/Reference.html#//apple_ref/occ/cl/NSURLRequest"
+        },
+        "Android": {
+            "source": "native",
+            "name": "java.net.HTTPURLConnection",
+            "docs": "https://developer.android.com/reference/java/net/HttpURLConnection.html"
+        },
+        "Windows 8": {
+            "source": "native",
+            "name": "File Transfer",
+            "docs": "https://msdn.microsoft.com/en-us/library/ee276615%28v=bts.10%29.aspx"
+        },
+        "Cordova": {
+	    "source": "native",
+	    "name": "FileTransfer",
+	    "docs": "http://cordova.apache.org/docs/en/3.3.0/cordova_file_file.md.html#FileTransfer"
+	},
+        "FirefoxOS": "browser",
+        "ChromeApps": "browser",
+        "Tizen": "browser",
+	"Blackberry": {
+	    "source": "native",
+	    "name": "FileTransferMode",
+	    "docs": "http://developer.blackberry.com/native/reference/cascades/bb__system__filetransfermode.html?f=filetransfer"
+	}
+    }
+}

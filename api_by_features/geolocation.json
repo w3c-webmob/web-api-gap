@@ -1,0 +1,43 @@
+{
+    "Geolocation": {
+    	"description": "Ability to read the device location as latitude/longitude/altitude",
+        "browser": {
+	    "source": "native",
+	    "name": "Geolocation API",
+	    "docs": "http://www.w3.org/TR/geolocation-API/"
+	},
+        "sysapp": "browser",
+        "security concerns" : "",
+        "iOS": {
+	    "source": "native",
+	    "name": "CLLocationManager.location",
+            "docs": "https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocationManager_Class/CLLocationManager/CLLocationManager.html"
+        },
+        "Android": {
+            "source": "native",
+            "name": "android.location",
+            "docs": "http://developer.android.com/reference/android/location/package-summary.html",
+	    "note": ["Location APIs in Play Services",
+		     "http://developer.android.com/google/play-services/location.html"]
+        },
+        "Windows 8": {
+            "source": "native",
+            "name": "Windows.Devices.Geolocation.Geolocator",
+            "docs": "http://msdn.microsoft.com/en-US/library/windows/apps/windows.devices.geolocation.geolocator"
+        },
+        "Cordova": "browser",
+        "FirefoxOS": "browser",
+        "ChromeApps": {
+	    "source": "extension",
+	    "name": "chrome.location",
+	    "docs": "http://developer.chrome.com/extensions/location",
+	    "note": "adds onLocationUpdate to the browser API"
+	},
+        "Tizen": "browser",
+	"Blackberry": {
+	    "source": "native",
+	    "name": "Geolocation (geolocation.h)",
+	    "docs": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_geolocation_8h.html?f=Geolocation"
+	}
+    }
+}

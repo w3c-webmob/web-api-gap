@@ -1,0 +1,24 @@
+{
+    "Magnetometer": {
+    	"description": "Ability to read raw values from the magnetometer",
+        "browser": {
+	    "note": "DeviceOrientation event gives orientation compared to magnetic North, but no direct access to raw magnetometic values"
+	},
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": {
+	    "api": "CMMagnetometerData",
+	    "url": "https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CMMagnetometerData_Class/Reference/Reference.html"
+	},
+        "Android": {
+	    "api": "Geomagnetic Field Sensor",
+	    "url": "http://developer.android.com/guide/topics/sensors/sensors_position.html#sensors-pos-mag"
+	},
+        "Windows 8": "",
+        "Cordova": "",
+        "FirefoxOS": "",
+        "ChromeApps": "",
+        "Tizen": "",
+	"Blackberry": ""
+    }
+}

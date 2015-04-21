@@ -1,0 +1,32 @@
+{
+    "Geofencing": {
+    	"description": "Ability to notify the user when she enters in a given geographical area (even if the app is not running?)",
+        "browser": "planned",
+        "sysapp": "browser",
+        "security concerns" : "",
+        "iOS": {
+	    "source": "native",
+	    "name": "CLLocationManager.startMonitoringForRegion",
+            "docs": "https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocationManager_Class/CLLocationManager/CLLocationManager.html#//apple_ref/occ/instm/CLLocationManager/startMonitoringForRegion:"
+        },
+        "Android": {
+            "source": "native",
+            "name": "Geofence",
+            "docs": "http://developer.android.com/training/location/geofencing.html"
+        },
+        "Windows 8": {
+            "source": "native",
+            "name": "windows.devices.geolocation.geofencing",
+            "docs": "http://msdn.microsoft.com/en-us/library/windows/apps/windows.devices.geolocation.geofencing"
+        },
+        "Cordova": "",
+        "FirefoxOS": "",
+        "ChromeApps": "",
+        "Tizen": "",
+	"Blackberry": {
+	    "source": "native",
+	    "name": "Geofencing (geomonitor.h)",
+	    "docs": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_geomonitor_8h.html?f=Geofencing"
+	}
+    }
+}

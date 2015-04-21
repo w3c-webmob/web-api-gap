@@ -1,0 +1,16 @@
+{
+    "Indoor location": {
+    	"description": "Ability to determine the user's location inside buildings",
+        "browser": "",
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": "",
+        "Android": "",
+        "Windows 8": "",
+        "Cordova": "",
+        "FirefoxOS": "",
+        "ChromeApps": "",
+        "Tizen": "",
+	"Blackberry": ""
+    }
+}
