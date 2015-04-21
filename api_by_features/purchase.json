@@ -1,0 +1,38 @@
+{
+    "Purchase": {
+    	"description": "Ability to pay quickly for physical goods from an app",
+        "browser": {
+	    "api": ["HTML5 autocomplete",
+		   "3rd-party services"],
+	    "url": ["http://www.w3.org/wiki/HTML/Elements/form",
+		   "http://www.w3.org/wiki/Privacy/TPWG/Proposals_on_elements_for_1and3_party_use"],
+	    "working group": "W3C"
+	},
+        "sysapp": "browser",
+        "security concerns" : "",
+        "iOS": {
+	    "api": "Apple Pay",
+	    "url": "https://developer.apple.com/apple-pay/",
+	    "working group": "Apple"
+	},
+        "Android": {
+	    "api": "Google Wallet",
+	    "url": "https://developers.google.com/wallet/instant-buy/android/tutorial",
+	    "working group": "Google"
+	},
+        "Windows 8": {
+	    "api": "Microsoft.Phone.Wallet.WalletTransactionItem",
+	    "url": "http://msdn.microsoft.com/en-us/library/windows/apps/microsoft.phone.wallet.wallettransactionitem.aspx",
+	    "working group": "Microsoft"
+	},
+        "Cordova": "",
+        "FirefoxOS": "",
+        "ChromeApps": "",
+        "Tizen": "",
+	"Blackberry": {
+	    "api": "Payment Service",
+	    "url": "http://developer.blackberry.com/native/reference/cascades/platform_payment_service.html?f=Purchase",
+	    "working group": "Blackberry"
+	}
+    }
+}
