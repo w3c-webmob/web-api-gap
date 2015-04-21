@@ -1,0 +1,46 @@
+{
+    "Web view": {
+    	"description": "Ability to display arbitrary Web content",
+        "browser": {
+	    "api": ["iframe",
+		    "window.open"],
+	    "url": ["http://www.w3.org/wiki/HTML/Elements/iframe",
+		    "http://www.w3.org/TR/html5/browsers.html"],
+	    "working group": "W3C"
+	},
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": {
+	    "api": "UIWebView",
+	    "url": "https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIWebView_Class/index.html#//apple_ref/occ/cl/UIWebView",
+	    "working group": "Apple"
+	},
+        "Android": {
+	    "api": "WebView",
+	    "url": "https://developer.android.com/reference/android/webkit/WebView.html",
+	    "working group": "Google"
+	},
+        "Windows 8": {
+	    "api": "WebView class",
+	    "url": "https://msdn.microsoft.com/en-us/library/windows/apps/xaml/windows.ui.xaml.controls.webview.aspx",
+	    "working group": "Microsoft"
+	},
+        "Cordova": {
+	    "api": "WebView",
+	    "url": "http://cordova.apache.org/docs/en/3.3.0/guide_hybrid_webviews_index.md.html#Embedding%20WebViews",
+	    "working group": "Apache Cordova"
+	},
+        "FirefoxOS": {
+	    "api": "GeckoView",
+	    "url": "https://wiki.mozilla.org/Mobile/Projects/GeckoWebView",
+	    "working group": "Firefox"
+	},
+        "ChromeApps": "",
+        "Tizen": "",
+	"Blackberry": {
+	    "api": "WebView",
+	    "url": "http://developer.blackberry.com/native/reference/cascades/bb__cascades__webview.html?f=webview",
+	    "working group": "Blackberry"
+	}
+    }
+}
