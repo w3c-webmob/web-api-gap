@@ -1,0 +1,44 @@
+{
+    "Screen wake": {
+    	"description": "Ability to keep the screen awake without user interaction",
+        "browser": "",
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": {
+	    "api": "UIApplication.idleTimerDisabled",
+	    "url": "https://developer.apple.com/library/ios/documentation/uikit/reference/UIApplication_Class/Reference/Reference.html#//apple_ref/occ/instp/UIApplication/idleTimerDisabled",
+	    "working group": "Apple"
+	},
+        "Android": {
+	    "api": "android.view.View.setKeepScreenOn",
+	    "url": "http://developer.android.com/reference/android/view/View.html#setKeepScreenOn%28boolean%29",
+	    "working group": "Google"
+	},
+        "Windows 8": {
+	    "api": "Microsoft.Phone.Shell.UserIdleDetectionMode.Disabled",
+	    "url": "http://msdn.microsoft.com/en-us/library/windowsphone/develop/ff941090%28v=vs.105%29.aspx",
+	    "working group": "Microsoft"
+	},
+        "Cordova": "",
+        "FirefoxOS": {
+	    "api": "navigator.requestWakeLock",
+	    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator.requestWakeLock",
+	    "working group": "Firefox"
+	},
+        "ChromeApps": {
+	    "api": "chrome.power.requestKeepAwake",
+	    "url": "https://developer.chrome.com/extensions/power.html",
+	    "working group": "Google"
+	},
+        "Tizen": {
+	    "api": "tizen.power.request",
+	    "url": "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/power.html#requestidp102368",
+	    "working group": "Tizen"
+	},
+	"Blackberry": {
+	    "api": "Screen events (screen.h)",
+	    "url": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_screen_8h.html?f=%20Screen",
+	    "working group": "Blackberry"
+	}
+    }
+}
