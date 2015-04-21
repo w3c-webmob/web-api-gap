@@ -1,0 +1,37 @@
+{
+    "Telephony": {
+    	"description": "Ability to connect to a phone network and dial numbers",
+        "browser": {
+	    "api": "WebRTC",
+	    "url": "http://www.w3.org/TR/webrtc/",
+	    "working group": "W3C"
+	},
+        "sysapp": {
+	    "api": "Web Telephony API",
+	    "url": "http://www.w3.org/2012/sysapps/telephony/",
+	    "working group": "W3C"
+	},
+        "security concerns" : "",
+        "iOS": {
+	    "api": "URL Schemes",
+	    "url": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html",
+	    "working group": "Apple"
+	},
+        "Android": {
+	    "api": ["URL scheme",
+		    "ACTION_DIAL "],
+	    "url": "http://developer.android.com/reference/android/content/Intent.html#ACTION_DIAL",
+	    "working group": "Google"
+	},
+        "Windows 8": {
+	    "api": "Microsoft.Phone.Tasks.PhoneCallTask",
+	    "url": "http://msdn.microsoft.com/EN-US/library/windowsphone/develop/microsoft.phone.tasks.phonecalltask%28v=vs.105%29.aspx",
+	    "working group": "Microsoft"
+	},
+        "Cordova": "browser",
+        "FirefoxOS": "browser",
+        "ChromeApps": "browser",
+        "Tizen": "sysapp",
+	"Blackberry": ""
+    }
+}
