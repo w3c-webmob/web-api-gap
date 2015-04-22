@@ -1,0 +1,20 @@
+{
+    "Wifi wake": {
+    	"description": "Ability to keep the Wifi network interface up even when the device is idle",
+        "browser": "",
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": "",
+        "Android": "",
+        "Windows 8": "",
+        "Cordova": "",
+        "FirefoxOS": {
+	    "api": "WifiManager.enabled",
+	    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WifiManager/enabled",
+	    "working group": "Firefox"
+	},
+        "ChromeApps": "",
+        "Tizen": "",
+	"Blackberry": ""
+    }
+}

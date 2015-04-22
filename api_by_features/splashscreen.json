@@ -1,0 +1,24 @@
+{
+    "Splashscreen": {
+    	"description": "Ability to display an image while the app is loading.",
+        "browser": {
+	    "api": "Service Workers",
+	    "url": "http://www.w3.org/TR/service-workers/",
+	    "working group": "W3C"
+	},
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": "",
+        "Android": "",
+        "Windows 8": "",
+        "Cordova": {
+	    "api": "Splashscreen",
+	    "url": "http://cordova.apache.org/docs/en/3.3.0/cordova_splashscreen_splashscreen.md.html#Splashscreen",
+	    "working group": "Apache Cordova"
+	},
+        "FirefoxOS": "",
+        "ChromeApps": "",
+        "Tizen": "",
+	"Blackberry": ""
+    }
+}

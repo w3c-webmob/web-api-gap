@@ -1,0 +1,16 @@
+{
+    "Network information": {
+    	"description": "Ability to determine the network setup of the device",
+        "browser": "",
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": "",
+        "Android": "",
+        "Windows 8": "",
+        "Cordova": "",
+        "FirefoxOS": "",
+        "ChromeApps": "",
+        "Tizen": "",
+	"Blackberry": ""
+    }
+}

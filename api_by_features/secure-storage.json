@@ -1,0 +1,16 @@
+{
+    "Secure storage": {
+    	"description": "Ability to store data locally than can only be accessed when the device is unlocked",
+        "browser": "",
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": "",
+        "Android": "",
+        "Windows 8": "",
+        "Cordova": "",
+        "FirefoxOS": "",
+        "ChromeApps": "",
+        "Tizen": "",
+	"Blackberry": ""
+    }
+}
