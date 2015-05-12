@@ -2,45 +2,45 @@
     "Contacts": {
     	"description": "Ability to read/write access to the addressbook.",
         "browser": {
-	    "source": "partial",
-	    "note": "Write to addressbook via v-card, read (some) data via input.autocomplete keys?; alternative via access to on-line addressbooks"
+	    "note": "Write to addressbook via v-card, read (some) data via input.autocomplete keys?; alternative via access to on-line addressbooks",
+	    "working group": "W3C"
 	},
         "sysapp": {
-	    "source": "native",
-	    "name": "ContactsManager API",
-	    "docs": "http://www.w3.org/2012/sysapps/contacts-manager-api/"
+	    "api": "ContactsManager API",
+	    "url": "http://www.w3.org/2012/sysapps/contacts-manager-api/",
+	    "working group": "W3C"
 	},
         "security concerns" : "",
         "iOS": {
-	    "source": "native",
-	    "name": "Address Book Programming Guide",
-            "docs": "https://developer.apple.com/library/ios/documentation/ContactData/Conceptual/AddressBookProgrammingGuideforiPhone/Introduction.html"
+	    "api": "Address Book Programming Guide",
+            "url": "https://developer.apple.com/library/ios/documentation/ContactData/Conceptual/AddressBookProgrammingGuideforiPhone/Introduction.html",
+	    "working group": "Apple"
         },
         "Android": {
-            "source": "native",
-            "name": "ContactsContract",
-            "docs": "http://developer.android.com/reference/android/provider/ContactsContract.html"
+            "api": "ContactsContract",
+            "url": "http://developer.android.com/reference/android/provider/ContactsContract.html",
+	    "working group": "Google"
         },
         "Windows 8": {
-            "source": "native",
-            "name": "ContactManager",
-            "docs": "http://msdn.microsoft.com/en-us/library/windows/apps/windows.applicationmodel.contacts.contactmanager.aspx"
+            "api": "ContactManager",
+            "url": "http://msdn.microsoft.com/en-us/library/windows/apps/windows.applicationmodel.contacts.contactmanager.aspx",
+	    "working group": "Microsoft"
         },
         "Cordova": {
-	    "source": "native",
-            "name": "Contacts",
-            "docs": "http://cordova.apache.org/docs/en/3.3.0/cordova_contacts_contacts.md.html#Contacts"
+            "api": "Contacts",
+            "url": "http://cordova.apache.org/docs/en/3.3.0/cordova_contacts_contacts.md.html#Contacts",
+	    "working group": "Apache"
 	},
         "FirefoxOS": "sysapp",
         "ChromeApps": {
-	    "source": "alternative",
 	    "note": "Access to on-line service Google Contacts"
+	    "working group": "Google"
 	},
         "Tizen": "sysapp",
 	"Blackberry": {
-            "source": "native",
-            "name": "Contacts",
-            "docs": "http://developer.blackberry.com/native/reference/cascades/app_integration_contacts.html?f=contacts"
+            "api": "Contacts",
+            "url": "http://developer.blackberry.com/native/reference/cascades/app_integration_contacts.html?f=contacts",
+	    "working group": "Blackberry"
 	}
     }
 }
