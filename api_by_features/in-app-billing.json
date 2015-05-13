@@ -2,34 +2,47 @@
     "In App Billing": {
     	"description": "Ability to pay quickly for digital goods from an app",
         "browser": {
-	    "API": "3rd-party services",
+	    "api": "3rd-party services",
 	    "spec_url": "",
-	    "working group": ""
+	    "working group": "W3C"
 	},
         "sysapp": "browser",
         "security concerns" : "",
         "iOS": {
-	    "API": "Apple Pay",
-	    "url": ""
+	    "api": "Apple Pay",
+	    "url": "https://developer.apple.com/library/ios/documentation/PassKit/Reference/PKPaymentRequest_Ref/",
+	    "working group": "Apple"
 	},
         "Android": {
-	    "API": "Google Wallet",
-	    "url": "https://developers.google.com/wallet/instant-buy/android/tutorial"
+	    "api": "Google Wallet",
+	    "url": "https://developers.google.com/wallet/instant-buy/android/tutorial",
+	    "working group": "Google"
 	},
         "Windows 8": {
-	    "API": "CurrentApp.RequestProductPurchaseAsync",
-	    "url": "http://msdn.microsoft.com/en-us/library/windows/apps/jj206950.aspx"
+	    "api": "CurrentApp.RequestProductPurchaseAsync",
+	    "url": "http://msdn.microsoft.com/en-us/library/windows/apps/jj206950.aspx",
+	    "working group": "Microsoft"
 	},
         "Cordova": "",
         "FirefoxOS": {
-	    "API": "MozPay",
-	    "url": "https://wiki.mozilla.org/WebAPI/WebPayment"
+	    "api": "MozPay",
+	    "url": "https://wiki.mozilla.org/WebAPI/WebPayment",
+	    "working group": "Mozilla"
 	},
         "ChromeApps": {
-	    "API": "google.payments.inapp.buy",
-	    "url": "https://developer.chrome.com/apps/google_wallet"
+	    "api": "google.payments.inapp.buy",
+	    "url": "https://developer.chrome.com/apps/google_wallet",
+	    "working group": "Google"
 	},
-        "Tizen": "",
-	"Blackberry": ""
+        "Tizen": {
+	    "api": "nfc",
+	    "url": "https://developer.tizen.org/dev-guide/2.2.1/org.tizen.web.device.apireference/tizen/nfc.html",
+	    "working group": "Linux"
+	},
+	"Blackberry": {
+	    "api": "PaymentService",
+	    "url": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_paymentservice_8h.html?f=pay",
+	    "working group": "Blackberry"	    
+	}
     }
 }
