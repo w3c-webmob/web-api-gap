@@ -2,50 +2,49 @@
     "Accelerometer": {
     	"description": "Ability to read data from the accelerometer.",
         "browser": {
-            "API": "`DeviceMotion` Event",
-            "spec_url": "http://dev.w3.org/geo/api/spec-source-orientation.html",
-            "working group": ""
+            "api": "`DeviceMotion` Event",
+            "url": "http://dev.w3.org/geo/api/spec-source-orientation.html",
+            "working group": "W3C"
         },
         "sysapp": "browser",
         "security concerns" : "",
         "iOS": {
-	    "source": "native",
-	    "name": "UIAccelerometer",
-            "docs": "https://developer.apple.com/library/ios/documentation/uikit/reference/UIAccelerometer_Class/Reference/UIAccelerometer.html",
-            "dependancies": ""
+	    "api": "UIAccelerometer",
+            "url": "https://developer.apple.com/library/ios/documentation/uikit/reference/UIAccelerometer_Class/Reference/UIAccelerometer.html",
+            "working group": "Apple"
         },
         "Android": {
-            "source": "native",
-            "name": "Motion sensors",
-            "docs": "http://developer.android.com/guide/topics/sensors/sensors_motion.html",
-            "dependancies": ""
+            "api": "MotionSensors",
+            "url": "http://developer.android.com/guide/topics/sensors/sensors_motion.html",
+            "working group": "Google"
         },
         "Windows 8": {
-            "source": "native",
-            "name": "Windows.Devices.Sensors.Accelerometer",
-            "docs": "http://msdn.microsoft.com/en-us/library/windows/apps/windows.devices.sensors.accelerometer",
+            "api": "Windows.Devices.Sensors.Accelerometer",
+            "url": "http://msdn.microsoft.com/en-us/library/windows/apps/windows.devices.sensors.accelerometer",
             "notes": "has “shake” detection, update interval setting",
-            "dependancies": ""
+            "working group": "Microsoft"
         },
         "Cordova": {
-            "source": "native",
-            "name": "navigator.accelerometer",
-            "docs": "http://cordova.apache.org/docs/en/3.3.0/cordova_accelerometer_accelerometer.md.html#Accelerometer",
-            "dependancies": ""
+            "api": "navigator.accelerometer",
+            "url": "http://cordova.apache.org/docs/en/3.3.0/cordova_accelerometer_accelerometer.md.html#Accelerometer",
+            "working group": "Apache"
         },
         "FirefoxOS": {
-            "source": "browser"
+            "url": "browser",
+	    "working group": "Mozilla"
         },
         "ChromeApps": {
-            "source": "browser"
+            "url": "browser",
+	    "working group": "Google"
         },
         "Tizen": {
-            "source": "browser"
+            "url": "browser",
+	    "working group": "Linux Foundation"
         },
 	"Blackberry": {
-	    "source": "native",
-	    "name": "Accelerometers",
-	    "docs": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_accelerometer_8h.html?f=accelerometer"
+	    "api": "Accelerometers",
+	    "url": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_accelerometer_8h.html?f=accelerometer",
+	    "working group": "Blackberry"
 	}
     }
 }
