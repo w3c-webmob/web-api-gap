@@ -2,56 +2,56 @@
     " Internationalization of formats": {
     	"description": "Ability to adapt the way dates, currencies and numbers are displayed to the user’s locale",
         "browser": {
-	    "source": "native",
-	    "name": "ECMAScript Internationalization API",
-	    "docs": "http://www.ecma-international.org/ecma-402/1.0/"
+	    "api": "ECMAScript Internationalization API",
+	    "url": "http://www.ecma-international.org/ecma-402/1.0/",
+	    "working group": "W3C"
 	},
         "sysapp": "browser",
         "security concerns" : "",
         "iOS": {
-	    "source": "native",
-	    "name": ["CFDateFormatter",
+	    "api": ["CFDateFormatter",
 		     "CFNumberFormatter"],
-            "docs": "https://developer.apple.com/library/mac/documentation/CoreFoundation/Conceptual/CFDataFormatting/Articles/CFDataFormatting.html#//apple_ref/doc/uid/10000176i"
+            "url": "https://developer.apple.com/library/mac/documentation/CoreFoundation/Conceptual/CFDataFormatting/Articles/CFDataFormatting.html#//apple_ref/doc/uid/10000176i",
+	    "working group": "Apple"
         },
         "Android": {
-            "source": "native",
-            "name": ["Android Localization Guide",
+            "api": ["Android Localization Guide",
 		     "java.text.DateFormat",
 		     "java.text.NumberFormat"],
-            "docs": ["http://developer.android.com/guide/topics/resources/localization.html",
-		     "http://developer.android.com/reference/java/text/DateFormat.html",
-		     "http://developer.android.com/reference/java/text/NumberFormat.html"]
+            "url": ["http://developer.android.com/guide/topics/resources/localization.html",
+		    "http://developer.android.com/reference/java/text/DateFormat.html",
+		    "http://developer.android.com/reference/java/text/NumberFormat.html"],
+	    "working group": "Google"
         },
         "Windows 8": {
-            "source": "native",
-            "name": "National Language Support",
-            "docs": "http://msdn.microsoft.com/en-us/library/windows/desktop/dd319083%28v=vs.85%29.aspx"
+            "api": "National Language Support",
+            "url": "http://msdn.microsoft.com/en-us/library/windows/desktop/dd319083%28v=vs.85%29.aspx",
+	    "working group": "Microsoft"
         },
         "Cordova": {
-	    "source": "native",
-	    "name": "Globalization",
-	    "docs": "http://cordova.apache.org/docs/en/3.3.0/cordova_globalization_globalization.md.html#Globalization"
+	    "api": "Globalization",
+	    "url": "http://cordova.apache.org/docs/en/3.3.0/cordova_globalization_globalization.md.html#Globalization",
+	    "working group": "Apache"
 	},
         "FirefoxOS": "browser",
         "ChromeApps": {
-	    "source": "partial",
-	    "name": "chrome.i18n",
-	    "docs": "http://developer.chrome.com/extensions/i18n",
+	    "api": "chrome.i18n",
+	    "url": "http://developer.chrome.com/extensions/i18n",
+	    "working group": "Google"
 	    "note": "Adds the ability to get list of accepted languages `chrome.i18n"
 	},
         "Tizen": {
-	    "source": "partial",
-	    "name": ["tizen.TimeUtil",
-		     "tizen.systeminfo.language",
+	    "api": ["tizen.TimeUtil",
+		    "tizen.systeminfo.language",
 		     "tizen.systeminfo.country"],
-	    "docs": ["https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/time.html",
-		     "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/systeminfo.html#::SystemInfo::SystemInfoLocale"]
+	    "url": ["https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/time.html",
+		    "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/systeminfo.html#::SystemInfo::SystemInfoLocale"],
+	    "working group": "Linux"
 	},
 	"Blackberry": {
-	    "source": "native",
-	    "name": "Language and locale (locale.h)",
-	    "docs": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_locale_8h.html?f=language"
+	    "api": "Language and locale (locale.h)",
+	    "url": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_locale_8h.html?f=language",
+	    "working group": "Blackberry"
 	}
     }
 }

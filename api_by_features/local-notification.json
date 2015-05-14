@@ -4,7 +4,7 @@
         "browser": {
 	    "api": "Web Notifications",
 	    "url": "http://www.w3.org/TR/notifications/",
-	    "working group": ""
+	    "working group": "W3C"
 	},
         "sysapp": "browser",
         "security concerns" : "",
@@ -16,7 +16,8 @@
         "ChromeApps": "",
         "Tizen": {
 	    "api": "tizen.notification",
-	    "url": "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/notification.html"
+	    "url": "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/notification.html",
+	    "working group": "Linux"
 	},
 	"Blackberry": ""
     }
