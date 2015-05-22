@@ -3,9 +3,9 @@
     	"description": "Ability to pay quickly for physical goods from an app",
         "browser": {
 	    "api": ["HTML5 autocomplete",
-		   "3rd-party services"],
+		    "3rd-party services"],
 	    "url": ["http://www.w3.org/wiki/HTML/Elements/form",
-		   "http://www.w3.org/wiki/Privacy/TPWG/Proposals_on_elements_for_1and3_party_use"],
+		    "http://www.w3.org/wiki/Privacy/TPWG/Proposals_on_elements_for_1and3_party_use"],
 	    "working group": "W3C"
 	},
         "sysapp": "browser",
@@ -26,9 +26,9 @@
 	    "working group": "Microsoft"
 	},
         "Cordova": "",
-        "FirefoxOS": "",
+        "FirefoxOS": "browser",
         "ChromeApps": "",
-        "Tizen": "",
+        "Tizen": "browser",
 	"Blackberry": {
 	    "api": "Payment Service",
 	    "url": "http://developer.blackberry.com/native/reference/cascades/platform_payment_service.html?f=Purchase",
