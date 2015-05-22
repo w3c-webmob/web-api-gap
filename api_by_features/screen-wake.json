@@ -23,7 +23,7 @@
         "FirefoxOS": {
 	    "api": "navigator.requestWakeLock",
 	    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator.requestWakeLock",
-	    "working group": "Firefox"
+	    "working group": "Mozilla Foundation"
 	},
         "ChromeApps": {
 	    "api": "chrome.power.requestKeepAwake",
@@ -33,7 +33,7 @@
         "Tizen": {
 	    "api": "tizen.power.request",
 	    "url": "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/power.html#requestidp102368",
-	    "working group": "Tizen"
+	    "working group": "Linux Foundation"
 	},
 	"Blackberry": {
 	    "api": "Screen events (screen.h)",
