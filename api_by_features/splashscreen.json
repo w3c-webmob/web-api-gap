@@ -9,16 +9,28 @@
         "sysapp": "",
         "security concerns" : "",
         "iOS": "",
-        "Android": "",
-        "Windows 8": "",
+        "Android": {
+	    "api": "GoogleAuthUtil",
+	    "url": "http://developer.android.com/reference/com/google/android/gms/auth/GoogleAuthUtil.html",
+	    "working group": "Google"
+	},
+        "Windows 8": {
+	    "api": "Splash",
+	    "url": "https://msdn.microsoft.com/en-us/library/windows/desktop/ms644698%28v=vs.85%29.aspx",
+	    "working group": "Microsoft"
+	},
         "Cordova": {
 	    "api": "Splashscreen",
 	    "url": "http://cordova.apache.org/docs/en/3.3.0/cordova_splashscreen_splashscreen.md.html#Splashscreen",
-	    "working group": "Apache Cordova"
+	    "working group": "Apache Foundation"
 	},
-        "FirefoxOS": "",
+        "FirefoxOS": {
+	    "api": "Screen",
+	    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Screen",
+	    "working group": "Mozilla Foundation"
+	},
         "ChromeApps": "",
-        "Tizen": "",
+        "Tizen": "browser",
 	"Blackberry": ""
     }
 }
