@@ -23,12 +23,16 @@
 	    "url": "http://msdn.microsoft.com/en-us/library/windows/apps/hh913756.aspx",
 	    "working group": "Microsoft"
 	},
-        "Cordova": "",
+        "Cordova": {
+	    "api": "Notification",
+	    "url": "https://cordova.apache.org/docs/en/3.0.0/cordova_notification_notification.md.html#Notification",
+	    "working group": "Apache Foundation"
+	},
         "FirefoxOS": {
 	    "api": ["browser",
 		    "Simple Push"],
 	    "url": "https://developer.mozilla.org/en-US/docs/WebAPI/Simple_Push",
-	    "working group": "Firefox"
+	    "working group": "Mozilla Foundation"
 	},
         "ChromeApps": {
 	    "api": "chrome.pushMessaging",
@@ -38,7 +42,7 @@
         "Tizen": {
 	    "api": "tizen.push",
 	    "url": "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/push.html",
-	    "working group": "Tizen"
+	    "working group": "Linux Foundation"
 	},
 	"Blackberry": {
 	    "api": "Push Service Library",
