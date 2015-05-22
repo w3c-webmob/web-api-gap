@@ -1,16 +1,48 @@
 {
     "Secure storage": {
     	"description": "Ability to store data locally than can only be accessed when the device is unlocked",
-        "browser": "",
+        "browser": {
+	    "api": "WebStorage",
+	    "url": "http://www.w3.org/TR/webstorage/#storage",
+	    "working group": "W3C"	   
+	},
         "sysapp": "",
         "security concerns" : "",
-        "iOS": "",
-        "Android": "",
-        "Windows 8": "",
-        "Cordova": "",
-        "FirefoxOS": "",
-        "ChromeApps": "",
-        "Tizen": "",
-	"Blackberry": ""
+        "iOS": {
+	    "api": "NSURLCredentialStorage",
+	    "url": "https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSURLCredentialStorage_Class/",
+	    "working group": "Apple"
+	},
+        "Android": {
+	    "api": "android.os.storage",
+	    "url": "http://developer.android.com/reference/android/os/storage/package-summary.html",
+	    "working group": "Google"
+	},
+        "Windows 8": {
+	    "api": "Windows.Storage",
+	    "url": "https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.aspx",
+	    "working group": "Microsoft"
+	},
+        "Cordova": {
+	    "api": "Storage",
+	    "url": "https://cordova.apache.org/docs/en/3.0.0/cordova_storage_storage.md.html#Storage",
+	    "working group": "Apache Foundation"
+	},
+        "FirefoxOS": {
+	    "api": "Storage",
+	    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Storage",
+	    "working group": "Mozilla Foundation"
+	},
+        "ChromeApps": {
+	    "api": "chrome.storage",
+	    "url": "https://developer.chrome.com/apps/storage",
+	    "working group": "Google"
+	},
+        "Tizen": "browser",
+	"Blackberry": {
+	    "api": "WebStorage",
+	    "url": "http://developer.blackberry.com/native/reference/cascades/bb__cascades__webstorage.html?f=storage",
+	    "working group": "Blackberry"
+	}
     }
 }
