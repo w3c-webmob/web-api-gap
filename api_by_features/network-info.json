@@ -1,0 +1,48 @@
+{
+    "Network information": {
+    	"description": "Ability to determine the network setup of the device",
+        "browser": {
+	    "api": "The Network Information API",
+	    "url": "https://dvcs.w3.org/hg/dap/raw-file/tip/network-api/Overview.html",
+	    "working group": "W3C"
+	},
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": {
+	    "api": "MIDINetworkSession",
+	    "url": "https://developer.apple.com/library/ios/documentation/CoreMidi/Reference/MIDINetworkSession_ClassReference/",
+	    "working group": "Apple"
+	},
+        "Android": {
+	    "api": "Network",
+	    "url": "https://developer.android.com/reference/android/net/Network.html",
+	    "working group": "Google"
+	},
+        "Windows 8": {
+	    "api": "Network",
+	    "url": "https://msdn.microsoft.com/en-us/library/windows/desktop/ms733489%28v=vs.85%29.aspx",
+	    "working group": "Microsoft"
+	},
+        "Cordova": {
+	    "api": "Connection",
+	    "url": "http://cordova.apache.org/docs/en/3.3.0/cordova_connection_connection.md.html#Connection",
+	    "working group": "Apache"
+	},
+        "FirefoxOS": {
+	    "api": "NetworkInformation",
+	    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation",
+	    "working group": "Mozilla"
+	},
+        "ChromeApps": {
+	    "api": "Network",
+	    "url": "https://developer.chrome.com/devtools/docs/protocol/1.0/network",
+	    "working group": "Google"
+	},
+        "Tizen": "browser",
+	"Blackberry": {
+	    "api": "CellularNetwork",
+	    "url": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_cellularnetwork_8h.html?f=network",
+	    "working group": "Blackberry"
+	}
+    }
+}

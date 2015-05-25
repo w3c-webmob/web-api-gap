@@ -1,0 +1,28 @@
+{
+    "Input Method Editor": {
+    	"description": "Ability to define / adapt an input method editor",
+        "browser": {
+	    "api": "Input Method Editor API",
+	    "url": "http://www.w3.org/TR/ime-api/",
+	    "working group": "W3C"
+	},
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": "",
+        "Android": {
+	    "api": "InputMethodService",
+	    "url": "http://developer.android.com/reference/android/inputmethodservice/InputMethodService.html",
+	    "working group": "Google"
+	},
+        "Windows 8": "",
+        "Cordova": "",
+        "FirefoxOS": "",
+        "ChromeApps": {
+	    "api": "chrome.input.ime",
+	    "url": "https://developer.chrome.com/extensions/input_ime",
+	    "working group": "Google"
+	},
+        "Tizen": "",
+	"Blackberry": ""
+    }
+}

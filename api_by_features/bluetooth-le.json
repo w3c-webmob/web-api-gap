@@ -1,0 +1,41 @@
+{
+    "Bluetooth Low Energy": {
+    	"description": "Ability to communicate with Bluetooth Low Energy devices.",
+        "browser": "",
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": {	
+	    "api": "CoreBluetooth",
+            "url": "https://developer.apple.com/library/ios/documentation/NetworkingInternetWeb/Conceptual/CoreBluetooth_concepts/CoreBluetoothBackgroundProcessingForIOSApps/PerformingTasksWhileYourAppIsInTheBackground.html#//apple_ref/doc/uid/TP40013257-CH7-SW1",
+	    "working group": "Apple",
+	    "note": "Both as central (receiver) and peripheral (provider) role bluetooth-central in Core Bluetooth Programming Guide"
+        },
+        "Android": {
+            "api": "Bluetooth-le",
+            "url": ["https://developer.android.com/about/versions/android-5.0.html#BluetoothBroadcasting",
+		    "http://developer.android.com/guide/topics/connectivity/bluetooth-le.html"],
+	    "working group": "Google",
+            "note": "Only as central role (receiver); peripheral announced for Android L Bluetooth Low Energy starting from 4.3"
+        },
+        "Windows 8": {
+            "api": "Bluetooth Low Energy Functions",
+            "url": "https://msdn.microsoft.com/en-us/library/windows/hardware/hh450825%28v=vs.85%29.aspx",
+	    "working group": "Microsoft",
+      	    "note": "Only in central role Windows 8 Bluetooth Low Energy Overview"
+        },
+        "Cordova": "",
+        "FirefoxOS": "",
+        "ChromeApps": {
+            "api": "chrome.bluetooth",
+            "url": "https://developer.chrome.com/apps/bluetooth",
+	    "working group": "Google"
+            "note": "seems only in central role (as part of chrome.bluetooth)"
+        },
+        "Tizen": "",
+	"Blackberry": {
+            "api": "Bluetooth low energy (btle.h)",
+            "url": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bluetooth.lib_ref/topic/about_btle_8h.html?f=bluetooth%20low",
+	    "working group": "Blackberry"
+	}
+    }
+}

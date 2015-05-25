@@ -1,0 +1,36 @@
+{
+    "NFC": {
+    	"description": "Read / write access to NFC-enabled devices",
+        "browser": "",
+        "sysapp": {
+	    "api": "NFC API",
+	    "url": "http://www.w3.org/2012/nfc/web-api/",
+	    "working group": "W3C"
+	},
+        "security concerns" : "",
+        "iOS": "",
+        "Android": {
+	    "api": "android.nfc.NfcAdapter",
+	    "url": "http://developer.android.com/reference/android/nfc/package-summary.html",
+	    "working group": "Apple"
+	},
+        "Windows 8": {
+	    "api": "ProximityDevice",
+	    "url": "http://msdn.microsoft.com/en-us/library/windows/apps/jj207060%28v=vs.105%29.aspx",
+	    "working group": "Microsoft"
+	},
+        "Cordova": "",
+        "FirefoxOS": {
+	    "api": "WebNFC",
+	    "url": "https://wiki.mozilla.org/WebAPI/WebNFC#Current_API",
+	    "working group": "Mozilla"
+	},
+        "ChromeApps": "",
+        "Tizen": "sysapp",
+	"Blackberry": {
+	    "api": "GeneralNFC",
+	    "url": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.nfc.lib_ref/topic/about_nfc_8h.html?f=nfc",
+	    "working group": "Blackberry"
+	}
+    }
+}

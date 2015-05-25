@@ -1,0 +1,44 @@
+{
+    "Media Play": {
+    	"description": "Ability to play audio and video",
+        "browser": {
+	    "api": "HTML5 Video Events and API",
+	    "url": "http://www.w3.org/2010/05/video/mediaevents.html",
+	    "working group": "W3C"
+	},
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": {
+	    "api": "MediaPlayer",
+	    "url": "https://developer.apple.com/library/ios/documentation/MediaPlayer/Reference/MediaPlayer_Framework/",
+	    "working group": "Apple"
+	},
+        "Android": {
+	    "api": "MediaPlayer",
+	    "url": "http://developer.android.com/reference/android/media/MediaPlayer.html",
+	    "working group": "Google"
+	},
+        "Windows 8": {
+	    "api": "Windows.Media.Playback",
+	    "url": "https://msdn.microsoft.com/en-us/library/windows/apps/windows.media.playback.aspx",
+	    "working group": "Microsoft"
+	},
+        "Cordova": {
+	    "api": "Media",
+	    "url": "http://cordova.apache.org/docs/en/3.3.0/cordova_media_media.md.html#Media",
+	    "working group": "Apache"
+	},
+        "FirefoxOS": {
+	    "api": "Play",
+	    "url": "https://developer.mozilla.org/en-US/docs/Web/Events/play",
+	    "working group": "Mozilla"
+	},
+        "ChromeApps": "browser",
+        "Tizen": "browser",
+	"Blackberry": {
+	    "api": "MediaPlayer",
+	    "url": "http://developer.blackberry.com/native/reference/cascades/multimedia_mediaplayer.html?f=media",
+	    "working group": "Blackberry"	    
+	}
+    }
+}

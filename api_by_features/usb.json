@@ -1,0 +1,28 @@
+{
+    "USB": {
+    	"description": "Serial interface to USB devices",
+        "browser": "",
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": "",
+        "Android": {
+	    "api": "USB Host and Accessory",
+	    "url": "https://developer.android.com/guide/topics/connectivity/usb/index.html",
+	    "working group": "Google"
+	},
+        "Windows 8": "",
+        "Cordova": "",
+        "FirefoxOS": {
+	    "api": "WebUSB",
+	    "url": "https://wiki.mozilla.org/WebAPI/WebUSB",
+	    "working group": "Firefox"
+	},
+        "ChromeApps": "",
+        "Tizen": "",
+	"Blackberry": {
+	    "api": "usb",
+	    "url": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.neutrino.utilities/topic/u/usb.html?f=USB",
+	    "working group": "Blackberry"
+	}
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "Baterry": {
+    	"description": "Ability to read level and mode of charge of baterry.",
+        "browser": {
+            "api": "Baterry Status API",
+            "url": "http://www.w3.org/TR/battery-status/",
+            "working group": "W3C"
+        },
+        "sysapp": "browser",
+        "security concerns" : "",
+        "iOS": {
+	    "api": "UIDevice.battery",
+            "url": "https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIDevice_Class/index.html#//apple_ref/occ/instp/UIDevice/batteryLevel",
+            "working group": "Apple"
+        },
+        "Android": {
+            "api": "BatteryManager",
+            "url": "http://developer.android.com/reference/android/os/BatteryManager.html",
+            "working group": "Google"
+        },
+        "Windows 8": {
+            "api": "Windows.Phone.Devices.Power.Battery",
+            "url": "https://msdn.microsoft.com/library/windows/apps/windows.phone.devices.power.battery%28v=vs.105%29.aspx",        	
+            "working group": "Microsoft"
+        },
+        "Cordova": {
+            "api": "org.apache.cordova.battery-status",
+            "url": "http://plugins.cordova.io/#/package/org.apache.cordova.battery-status",
+            "working group": "Apache"
+        },
+        "FirefoxOS": {
+            "url": "browser"
+        },
+        "ChromeApps": "",
+        "Tizen": {
+            "url": "browser"
+        },
+	"Blackberry": {
+            "api": "BatteryChargingState",
+            "url": "http://developer.blackberry.com/native/reference/cascades/bb__device__batterychargingstate.html?f=battery",
+            "working group": "Blackberry"	    
+	}
+    }
+}

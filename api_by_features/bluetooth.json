@@ -1,0 +1,44 @@
+{
+    "Bluetooth": {
+    	"description": "Ability to communicate with Bluetooth devices.",
+        "browser": "",
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": {
+	    "api": "CoreBluetooth",
+            "url": "https://developer.apple.com/library/ios/documentation/NetworkingInternetWeb/Conceptual/CoreBluetooth_concepts/CoreBluetoothBackgroundProcessingForIOSApps/PerformingTasksWhileYourAppIsInTheBackground.html#//apple_ref/doc/uid/TP40013257-CH7-SW1",
+	    "working group": "Apple"
+        },
+        "Android": {
+            "api": "Bluetooth",
+            "url": "http://developer.android.com/guide/topics/connectivity/bluetooth.html",
+	    "working group": "Google"
+        },
+        "Windows 8": {
+            "api": "Bluetooth",
+            "url": "https://msdn.microsoft.com/library/windows/apps/jj207007%28v=vs.105%29.aspx",
+	    "working group": "Microsoft"
+        },
+        "Cordova": "",
+        "FirefoxOS": {
+            "api": "WebAPI/WebBluetooth",
+            "url": "https://wiki.mozilla.org/WebAPI/WebBluetooth",
+	    "working group": "Mozilla"
+	},
+        "ChromeApps": {
+            "api": "chrome.bluetooth",
+            "url": "https://developer.chrome.com/apps/bluetooth",
+	    "working group": "Google"
+        },
+        "Tizen": {
+            "api": "Bluetooth API",
+            "url": "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/bluetooth.html",
+	    "working group": "Linux Foundation"
+        },
+	"Blackberry": {
+            "api": "Bluetooth device management (btdevice.h)",
+            "url": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bluetooth.lib_ref/topic/about_btdevice_8h.html?f=bluetooth",
+	    "working group": "Blackberry"
+	}
+    }
+}

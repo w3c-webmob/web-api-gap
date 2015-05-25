@@ -1,0 +1,40 @@
+{
+    "Media Capture": {
+    	"description": "Use installed camera app to take picture / record video",
+        "browser": {
+	    "api": "HTML Media Capture",
+	    "url": "http://www.w3.org/TR/html-media-capture/",
+	    "working group": "W3C"
+	},
+        "sysapp": "browser",
+        "security concerns" : "",
+        "iOS": {
+	    "api": "UIImagePickerController",
+	    "url": "https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/CameraAndPhotoLib_TopicsForIOS/Articles/TakingPicturesAndMovies.html",
+	    "working group": "Apple"
+	},
+        "Android": {
+	    "api": "MediaStore Capture intent",
+	    "url": "http://developer.android.com/guide/topics/media/camera.html#intents",
+	    "working group": "Google"
+	},
+        "Windows 8": {
+	    "api": "CameraCaptureUI",
+	    "url": "http://msdn.microsoft.com/en-us/library/windows/apps/windows.media.capture.cameracaptureui.aspx",
+	    "working group": "Microsoft"
+	},
+        "Cordova": {
+	    "api": "Capture",
+	    "url": "http://cordova.apache.org/docs/en/3.3.0/cordova_media_capture_capture.md.html#Capture",
+	    "working group": "Apache"
+	},
+        "FirefoxOS": "browser",
+        "ChromeApps": "browser",
+        "Tizen": "browser",
+	"Blackberry": {
+	    "api": "Camera",
+	    "url": "http://developer.blackberry.com/native/reference/cascades/bb__cascades__multimedia__camera.html",
+	    "working group": "Blackberry"
+	}
+    }
+}

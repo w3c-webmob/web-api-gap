@@ -1,0 +1,36 @@
+{
+    "Camera Stream": {
+    	"description": "Ability to get and display a video stream from the on-board camera",
+        "browser": {
+	    "api": "GetUserMedia",
+	    "url": "http://w3c.github.io/mediacapture-main/getusermedia.html",
+	    "working group": "W3C"
+	},
+        "sysapp": "browser",
+        "security concerns" : "",
+        "iOS": {
+	    "api": "AVCaptureSession",
+            "url": "https://developer.apple.com/library/mac/documentation/AVFoundation/Reference/AVCaptureSession_Class/index.html",
+	    "working group": "Apple"
+        },
+        "Android": {
+            "api": "Camera",
+            "url": "http://developer.android.com/reference/android/hardware/Camera.html",
+	    "working group": "Google"
+        },
+        "Windows 8": {
+            "api": "window.media.capture.mediacapture",
+            "url": "https://msdn.microsoft.com/en-us/library/windows/apps/windows.media.capture.mediacapture.aspx",
+	    "working group": "Microsoft"
+        },
+        "Cordova": "",
+        "FirefoxOS": "browser",
+        "ChromeApps": "browser",
+        "Tizen": "browser",
+	"Blackberry": {
+            "api": "Camera",
+            "url": "http://developer.blackberry.com/native/reference/cascades/bb__cascades__multimedia__camera.html",
+	    "working group": "Blackberry"
+	}
+    }
+}
