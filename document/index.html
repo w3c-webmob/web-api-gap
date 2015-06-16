@@ -131,13 +131,6 @@
 <section class="featureset">
       <h2 id="coreapps">2.Device Apps Interaction</h2>
 
-      calendar.json
-      contacts.json
-      push-notifications.json
-      globalization.json
-      ime.json (not sure about this here)
-      local-notification.json
-
       <p>Mobile operating systems have a set of features which are often reused in applications.</p>
 
       <p data-feature="Calendar">The <a data-featureid="wiwa">Calendar API</a> ...</p>
@@ -189,92 +182,70 @@
 <section class="featureset">
       <h2 id="rtc">4.Media and Real-Time Communications </h2>
 
-            <p data-feature="Media Capture Capabilities">The <a data-featureid="getusermedia-cap">Media Capture Streams</a> API exposes some specific information on capabilities of camera and microphones to make it possible to take advantage of the large variety of media capturing devices provided on mobile phones.</p>
+      <p>Social and messaging native apps on mobile devices often use camera and microphone input to...</p>
 
-      <p>HTML5 adds two tags that dramatically improve the integration of multimedia content on the Web: the <code><strong data-feature="Video playback" ><a data-featureid="video">&lt;video&gt;</a></strong></code> and <code><strong data-feature="Audio playback"><a data-featureid="audio">&lt;audio&gt;</a></strong></code> tags. Respectively, these tags allow embedding video and audio content, and make it possible for Web developers to interact much more freely with that content than they would through plug-ins. They make multimedia content first-class citizens of the Web, the same way images have been for the past 20 years.</p>
-      
-      <p data-feature="Generation of media content">The playback content can be augmented and completed via <a data-featureid="mse">Media Source Extensions</a> that lets developers generate media content in JavaScript.</p>
-      <p data-feature="Protected content playback">To cater for the needs of some content providers, a proposal to enable <strong>playback of protected content</strong>, <cite><a data-featureid="eme">Encrypted Media Extensions</a></cite> is an API that is under consideration in the <a href="http://www.w3.org/html/wg/">HTML Working Group</a>.</p>
+      <p data-feature="Camera-stream">The <a data-featureid="wiwa">Camera-stream API</a> ...</p>
 
-      <p data-feature="Capturing audio/video">While the new HTML5 tags allow to play multimedia content, the <cite><a data-featureid="inputaccept">HTML Media Capture</a></cite> defines a <strong>markup-based mechanism to access captured multimedia content</strong> using attached camera and microphones, a very common feature on mobile devices. The <a href="http://www.w3.org/2011/04/webrtc/">Web Real-Time Communications Working Group</a> and the <a href="http://www.w3.org/2009/dap/">Device APIs Working Group</a> are building together an <a data-featureid="getusermedia">API (<code>getUserMedia</code>)</a> to directly manipulate <strong>streams from camera and microphones</strong>, as well as an <a data-featureid="recording">API to record these streams</a> into files, and another API to use access to cameras to <a data-featureid="imagecapture">take photos programatically</a>.</p>
-      <p data-feature="Image &amp; Video analysis, modification">Beyond capturing and recording, two additional APIs add multimedia manipulation capabilities to the Web platform. We have already mentioned the <cite><a data-featureid="canvas">Canvas 2D Context</a></cite> API: it enables modifying images, which in turn opens up the possibility of <strong>video editing</strong>.</p>
-      <p data-feature="Audio analysis, modification">In a similar vein, the <a href="http://www.w3.org/2011/audio/">Audio Working Group</a> is working on an API that  that makes it possible to modify audio content, as well as <strong>analyze, modify and synthesize sounds</strong>, the <a data-featureid="webaudio">Web Audio API</a>.</p>
+      <p data-feature="Media-capture">The <a data-featureid="wiwa">mMdia-capture API</a> ...</p>
 
-      <div data-feature="Local network services">
-        <p>The <a data-featureid="discovery">Network Service Discovery</a> API offers to discover services on the local network (such as the ones offered via DLNA), enabling mobile Web applications to integrate seamlessly with these services.</p>
-        <p>An alternative proposal to the Network Service Discovery API has emerged: <a data-featureid="namedwebsockets">Named Web Sockets</a> offers to provide well-known sockets to existing and approved local network services.</p>
-        <p>The <a href="http://www.w3.org/2014/secondscreen/">Second Screen Presentation Working Group</a> is building an <a data-featureid="secondscreen">an API to request display of content on an external screen</a>, including through network-based protocols, forming the basis for second-screen scenarios.</p>
-      </div>
-      
-      <p>The <strong><a href="http://www.w3.org/2011/04/webrtc/">Web Real-Time Communications Working Group</a></strong> is the host of specifications for a wider set of communication opportunities:</p>
-      
-      <ul>
-        <li data-feature="P2P connections and audio/video streams"><strong><a data-featureid="p2p">Peer-to-peer connection</a></strong> across devices,</li>
-        <li><strong>P2P Audio and video streams</strong> allowing for real-time communications between users.</li>
-      </ul>
+      <p data-feature="Media-play">The <a data-featureid="wiwa">Media Play API</a> ...</p>
 
-      <p>The combination of all these features marks the starting point of the Web as a comprehensive platform for multimedia, both for consuming and producing. The rising interest around bridging the Web and TV worlds (manifested through the <a href="http://www.w3.org/2011/webtv/">W3C Web and TV Interest Group</a>) should strengthen that trend in the coming months. Mobile devices are expected to take a growing role in many users TV experience, providing a “second screen” experience, where users can find more information on or interact with a TV program they're watching via their mobile devices.</p>
-
-      <p>Likewise, the opportunity offered to deploy real-time communication services on the Web is another step towards the unification of the telecommunication and Web ecosystems.</p>
-      <div data-feature="Addressbook data">
-        <p>Communication applications can benefit from integrating with their users’ existing data records; on mobile devices, the address book is a  particularly useful source of information.</p>
-        <p>For Web apps outside of the browser, a purely programmatic approach is part of the <a href="http://www.w3.org/2012/05/sysapps-wg-charter.html">System Applications Working Group</a>, with work on a <a data-featureid="contacts-sys">Contacts Manager API</a> in progress.</p>
-        <p>In the browser, HTML 5.1 provides <a data-featureid="autocomplete">autocompleted fields for contacts information</a> that would let browsers re-use data from addressbooks.</p>
-      </div>
+      <p> In W3C, the <a href="http://www.w3.org/2011/04/webrtc/">Web Real-Time Communications Working Group</a> and the <a href="http://www.w3.org/2009/dap/">Device APIs Working Group</a> are building together an <a data-featureid="getusermedia">API (<code>getUserMedia</code>)</a> to directly manipulate <strong>streams from camera and microphones</strong>, as well as an <a data-featureid="recording">API to record these streams</a> into files, and another API to use access to cameras to <a data-featureid="imagecapture">take photos programatically</a>.</p>
 
 </section>
 
 <section class="featureset">
       <h2 id="storage">5.Storage, File and Cache Management</h2>
-      <div data-feature="example">
-      <p>An increasing share of mobile devices relies on etc etc. Include some info on W3C specs related to this. Then repeat data feature for as many as possible</p>
-      </div>
+      
+      <p>Native apps sometimes have use cases for file management and trasfer, this can include sending, receiving and opening photos or reading pdf documents...</p>
+
+      <p data-feature="File-transfer-background">The <a data-featureid="wiwa">File Transfer Background API</a> ...</p>
+
+      <p data-feature="File-transfer">The <a data-featureid="wiwa">File Transfer API</a> ...</p>
+
+      <p data-feature="Secure-storage">The <a data-featureid="wiwa">Secure Storage API</a> ...</p>
+
 </section>
 
 <section class="featureset">
       <h2 id="network">6.Network Information and Call/Message Management</h2>
-      <div data-feature="example">
-      <p>An increasing share of mobile devices relies on etc etc. Include some info on W3C specs related to this. Then repeat data feature for as many as possible</p>
-      </div>
 
-      <p>Network connectivity represents a major asset for mobile devices: the Web is an immense store of content, as well as an almost endless source of processing power, overcoming two of the limitations of mobile devices.</p>
-      <p>The Web platform is growing a number of APIs that facilitate establishing network connectivity in different contexts.</p>
-      <div data-feature="HTTP(s) network API">
-      <p><cite><strong><a data-featureid="xhr2">XMLHttpRequest</a></strong></cite> (the basis for Ajax development) is a widely deployed API to load content from Web servers using the HTTP and HTTPs protocol: the W3C specification (formerly known as <cite>XMLHttpRequest Level 2</cite>) completes the existing deployed API with the ability to make requests on servers in a different domain, programmatic feedback on the progress of the network operations, and more efficient handling of binary content. The WHATWG <a href="https://fetch.spec.whatwg.org/">fetch API</a> provides a more powerful Promise-based alternative.</p>
-      <p>The <cite><strong><a data-featureid="beacon">Beacon</a></strong></cite> API aims at letting developers queue unsupervised HTTP requests, leaving it to the browser to execute them when appropriate, opening the door for better network optimizations.</p>
-      <p>Early work on a <cite><strong><a data-featureid="background-sync">Web Background Synchronization API</a></strong></cite> would provide a robust Service Worker-based mechanism to enable Web applications to download and upload content in the background, even in the absence of a running browser.</p>
-      </div>
-      <p data-feature="Cross-domain requests">By default, browsers do not allow to make request across different domains (or more specifically, across different <dfn class="def">origins</dfn>, a combination of the protocol, domain and port) from a single Web page; this rule protects the user from having a Web site abusing their credentials and stealing their data on another Web site. Sites can opt-out of that rule by making use of the <cite><strong><a data-featureid="cors">Cross-Origin Resource Sharing</a></strong></cite> mechanism, opening up much wider cooperation across Web applications and services.</p>
-      <div data-feature="Server-pushed requests">
-      <p>XMLHttpRequest is useful for client-initiated network requests, but mobile devices with their limited network capabilities and the cost that network requests induce on their battery (and sometimes on their users bill) can often make better use of server-initiated requests. The <cite><strong><a data-featureid="eventsource">Server-Sent Events</a></strong></cite> API allows triggering DOM events based on push notifications (via HTTP and other protocols.)</p>
-      <p>Early work on a <strong><a data-featureid="push">Push API</a></strong> would allow Web applications to receive server-sent messages whether or not the said Web app is active in a browser window. An <a href="http://www.ietf.org/mail-archive/web/webpush/current/msg00007.html">IETF Working Group charter</a> is under discussion to standardize the protocol aspects of the mechanism.</p>
-      </div>
-      <p data-feature="Bidirectional connections">The <cite><strong><a data-featureid="websockets">WebSocket API</a></strong></cite>, built on top of the IETF <cite><a href="http://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-05">WebSocket protocol</a></cite>, offers a bidirectional, more flexible, and less resource intensive network connectivity than XMLHttpRequest.</p>
-      <p data-feature="P2P data connections">The work on <a data-featureid="p2p">Web Real-Time Communications</a> will also provide direct <strong>peer-to-peer data connections</strong> between browsers with real-time characteristics, opening the way to collaborative multi-devices Web applications.</p>
-      <p data-feature="on-line state">Of course, an important part of using network connectivity relies on being able to determine if such connectivity exists, and the type of network available. The <a data-featureid="online">HTML5 <strong>onLine DOM flag</strong></a> (and its associated change event, <code>ononline</code>) signals when network connectivity is available to the Web environment.</p>
-      <div data-feature="Network characteristics"><p>
-        <p>The <a data-featureid="networkapi">network-information API</a>, which was supposed to address discovery of the network characteristics, has been abandoned for the time being due to lack of clear supporting <a href="http://w3c-webmob.github.io/netinfo-usecases/">use cases</a>.</p>
-        <p>The <strong><a data-featureid="res-timing">Resource Timing</a> API</strong> offers to measure precisely the impact of the network on the time needed to load various resources, offering another approach to adapt a Web app to its network environment.</p>
-      </div>
+      <p>Network connectivity represents a major asset for mobile devices: the Web is an immense store of content, as well as an almost endless source of processing power, overcoming two of the limitations of mobile devices...</p>
+
+      <p>The<a href="">Contacts API</a> is ... and can be found above. </p>
+
+      <p data-feature="telephony">The <a data-featureid="wiwa">Telephony API</a> ...</p>
+
+      <p data-feature="Network-info">The <a data-featureid="wiwa">Network Information API</a> ...</p>
+
+      <p data-feature="Messaging">The <a data-featureid="wiwa">Messaging API</a> ...</p>
+
+      <p data-feature="Globalization">The <a data-featureid="wiwa">Globalization API</a> ...</p>
+
 </section>
 
 <section class="featureset">
       <h2 id="payments">7.Payments</h2>
-      <div data-feature="example">
-      <p>An increasing share of mobile devices relies on etc etc. Include some info on W3C specs related to this. Then repeat data feature for as many as possible</p>
-      </div>
 
-      <p>Native mobile application stores have made it much easier for developers to monetize some of their applications, either by selling the application itself to users, or by providing in-app purchases.</p>
-      <p>While Web applications can use well-known on-line payment solutions, these solutions have so far proved much harder to use on mobile devices.</p>
-      <p>In March 2014, W3C organized a <a href="http://www.w3.org/2013/10/payments/">workshop on Web payments</a> to identify ways in which standards could help make that payment experience much simpler, in particular on mobile devices. In Octobober 2014, W3C <a href="http://www.w3.org/2014/04/payments/webpayments_charter.html">chartered</a> the <a href="http://www.w3.org/Payments/IG/">Web Payment Interest Group</a> to drive work in this space.</p>
-      <p data-feature="Integrated payment">Meanwhile, HTML5.1 provides specific help for <a data-featureid="autocomplete-cc">autocomplete of credit card details</a>, making it easier to pay via credit cards once these details have been entered once.</p>
+      .json
+.json
+
+      <p>Payments, both in-app and in-store are a key feature of a number of native mobile apps and also a direct way of monitization for mobile app developers...</p>
+
+      <p data-feature="in-app-billing">The <a data-featureid="wiwa">In App Billing API</a> ...</p>
+
+      <p data-feature="Purchase">The <a data-featureid="wiwa">Purchase API</a> ...</p>
+
+      <p>In Octobober 2014, W3C <a href="http://www.w3.org/2014/04/payments/webpayments_charter.html">chartered</a> the <a href="http://www.w3.org/Payments/IG/">Web Payment Interest Group</a> to drive work in this space.</p>
 </section>
 
 <section class="featureset">
       <h2 id="webview">8.Webview</h2>
-      <div data-feature="example">
-      <p>An increasing share of mobile devices relies on etc etc. Include some info on W3C specs related to this. Then repeat data feature for as many as possible</p>
-      </div>
+      
+      <p>Webview...</p>
+
+      <p data-feature="Webview">The <a data-featureid="wiwa">Webview API</a> ...</p>
+      
 </section>
 
 <section>
