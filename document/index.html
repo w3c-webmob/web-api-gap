@@ -52,6 +52,9 @@
 <section>
       <h2>Document structure</h2>
       <p>Decription 1.</p>
+
+      <p>In this document readers can find a list of native APIs for mobile operating systems. Some of these APIs have web equivelants. This documnet hopes to highlight the gaps for possible standards work to close the gap with web and native.</p>
+
       <p>The following application foundations are considered in this document: <a href="#Core">core web design and development</a>, <a href="#Multimedia">media and real-time communications</a>, <a href="#User_interactions">usability and accessibility</a>, <a href="#Sensors_and_hardware_integration">device interaction</a>, <a href="#Packaging">application lifecycle</a>, <a href="#Payment">payment and services</a>, <a href="#Performance_.26_Optimization">performance &amp; tuning</a> and <a href="#Security">security &amp; privacy</a>. In addition, it covers topics related to <a href="#Network">network integration</a>, <a href="#Hardwares Available">hardwares available</a> and <a href="#Licenses">licenses</a>.</p>
 
       <p>In each category of features, a table summarizes for each feature:</p>
@@ -84,21 +87,24 @@
 
 <section>
       <h2 id="device">1.Device Interaction</h2>
-      
-      <p>Mobile devices not only differ widely from traditional computers, but they also have a lot of variations among themselves, in term of screen size, resolution, type of keyboard, media recording capabilities, etc.</p>
-      <p data-feature="Device information">The <a data-featureid="ddr">Device Description Repository API</a> is a unified server-side API that allows Web developers to retrieve data on the devices that are accessing their pages on a variety of device information database.</p>
-      <p data-feature="Media Capture Capabilities">The <a data-featureid="getusermedia-cap">Media Capture Streams</a> API exposes some specific information on capabilities of camera and microphones to make it possible to take advantage of the large variety of media capturing devices provided on mobile phones.</p>
-      
-      <p>Mobile devices are packed with sensors, making them a great bridge between the real and virtual worlds: GPS, accelerometer, ambient light detector, microphone, camera, thermometer, etc.</p>
-      <p>To take full advantage of these sensors in mobile Web applications, Web developers need to be provided with hooks to interact with them.</p>
-      <div data-feature="Geolocation">
-        <p>The <cite><strong><a data-featureid="geolocation">Geolocation API</a></strong></cite> provides a common interface for locating the device, independently of the underlying technology (GPS, WIFI networks identification, triangulation in cellular networks, etc.).</p>
-        <p>Work towards a new <a data-featureid="geofencing">geofencing API</a> (i.e. an API to detect when a device enters a given geographical area) has started.</p>
-      <p data-feature="Motion sensors">Web applications can also now access <strong>orientation and acceleration</strong> data via the <cite><a data-featureid="accelerometer">DeviceOrientation Event Specification</a></cite>.</p>
-      <p>A number of APIs for other sensors are under development: the <a data-feature="Battery Status" data-featureid="battery">Battery Status API</a>, the <a data-feature="Proximity sensors" data-featureid="proximity"><cite>Proximity Events</cite> API</a>, the <a data-feature="Ambient Light sensor" data-featureid="ambientlight"><cite>Ambient Light Events</cite> API</a> or the proposed <a data-feature="Humidity sensor" data-featureid="humidity"><cite>Ambient Humidity Events</cite> API</a>. The Device APIs Working Group has <a href="https://github.com/w3c/sensors">started an effort</a> to propose a unification pattern for these various sensors.</p>
-      <p data-feature="Camera &amp; Microphone streams">As already mentioned in the section on <a href="#Multimedia">multimedia</a>, there is ongoing work on <a data-featureid="getusermedia">APIs to open up access to camera and microphone</a> streams.</p>
-      <p data-feature="NFC">The opportunity for Web applications to use <strong>Near-Field Communications (NFC)</strong> mechanisms have led to the chartering of <a href="http://www.w3.org/2012/nfc/">the NFC Working Group</a> to develop a <a data-featureid="nfc">Web NFC API</a>.</p>
-      <p data-feature="Bluetooth">A more global access to sensors and hardware (including USB and bluetooth) is in scope for the <strong><a href="http://www.w3.org/2012/sysapps/">System Applications Working Group</a></strong>. A <a href="http://www.w3.org/community/web-bluetooth/">Web Bluetooth Community Group</a> was started to develop a <a data-featureid="bluetooth">Bluetooth API for browsers</a> with a particular goal of supporting Bluetooth Low Energy devices.</p>
+
+      <p>Native mobile operating systems offer a set of APIs which allow apps to interact with device hardware. This can include sensors, wireless communication readers, or battery and screen information and controlling APIs.</p>
+
+      <p data-feature="Battery">The <a data-featureid="bat">Battery APIs</a> allows developers to get device battery status and ...</p>
+
+      <p data-feature="Bluetooth">With developments in Internet of Things devices <a data-featureid="bth">Bluetooth</a> and  <a data-featureid="bthle">Bluetooth LE APIs</a> (for low energy devices) have become very useful to native app developers, allowing them to create screen experiences for external small devices or allowing users to communicate with other users in close range.</p> A <a href="http://www.w3.org/community/web-bluetooth/">Web Bluetooth Community Group</a> was started to develop a <a data-featureid="bluetooth">Bluetooth API for browsers</a> with a particular goal of supporting Bluetooth Low Energy devices.</p>
+
+      <p data-feature="NFC_">Other close-ranged technologies in use include <a data-featureid="nfc">NFC APIs</a>. These are particularly useful for payments and ticketing use cases where contact is expected and security is more important. The <a href="http://www.w3.org/2012/nfc/">NFC Working Group</a> at W3C developed a web version of a<a data-featureid="nfc">Web NFC API</a>.</p>
+
+      <div data-feature="Sensors">
+        <p>As more use cases arrive for interacting with the world around users more sensor hardware is added to devices. Native mobile platforms allo app developers to interact with these sensors through a host of APIs. The <a data-featureid="cmps">Compass API</a> returns compass data good for map or AR use cases; <a data-featureid="bat">Magnetometer APIs</a> also support these use cases. The <a data-featureid="acc">Accelerometer APIs</a> can alert an app to the tilt or shift of the mobile's orientation to allow apps to change their user experience to meet the situation. 
+      </div>
+
+      <p data-feature="Vibration">Mobile devices offer more feedback options now other than just sound, the <a data-featureid="vib">Vibration APIs</a> gives apps the ability to signal to the vibration element in devices to turn on, off or react in a certain way.</p>
+
+      <p data-feature="Wifi-Wake">The <a data-featureid="wiwa">Wifi-Wake API</a> ...</p>
+
+      <p data-feature="USB"><a data-featureid="wiwa">USB APIs</a> gives apps the ability to interact with other devices through the USB port.</p>
 
       <script id="template" type="application/template">
         <table>
@@ -132,6 +138,11 @@
       <h2 id="geo">3.Geo</h2>
       <div data-feature="example">
       <p>An increasing share of mobile devices relies on etc etc. Include some info on W3C specs related to this. Then repeat data feature for as many as possible</p>
+
+      <div data-feature="Geolocation">
+        <p>The <cite><strong><a data-featureid="geolocation">Geolocation API</a></strong></cite> provides a common interface for locating the device, independently of the underlying technology (GPS, WIFI networks identification, triangulation in cellular networks, etc.).</p>
+        <p>Work towards a new <a data-featureid="geofencing">geofencing API</a> (i.e. an API to detect when a device enters a given geographical area) has started.</p>
+
       </div>
 </section>
 
@@ -153,6 +164,8 @@
 
 <section class="featureset">
       <h2 id="rtc">4.Media and Real-Time Communications </h2>
+
+            <p data-feature="Media Capture Capabilities">The <a data-featureid="getusermedia-cap">Media Capture Streams</a> API exposes some specific information on capabilities of camera and microphones to make it possible to take advantage of the large variety of media capturing devices provided on mobile phones.</p>
 
       <p>HTML5 adds two tags that dramatically improve the integration of multimedia content on the Web: the <code><strong data-feature="Video playback" ><a data-featureid="video">&lt;video&gt;</a></strong></code> and <code><strong data-feature="Audio playback"><a data-featureid="audio">&lt;audio&gt;</a></strong></code> tags. Respectively, these tags allow embedding video and audio content, and make it possible for Web developers to interact much more freely with that content than they would through plug-ins. They make multimedia content first-class citizens of the Web, the same way images have been for the past 20 years.</p>
       
