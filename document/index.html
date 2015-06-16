@@ -38,7 +38,8 @@
       </dl>
       <p>DOC DESCRIPTION.</p>
       <ol>
-        <li><a href="#device">Device Interaction</a></li>
+        <li><a href="#device">Device Hardware Interaction</a></li>
+        <li><a href="#device">Device Apps Interaction</a></li>
         <li><a href="#coreapps">Core Apps Interaction</a></li>
         <li><a href="#geo">Geo</a></li>
         <li><a href="#service">Core Device, Task Management and Scheduling (Service?)</a></li>
@@ -86,7 +87,7 @@
 </section>
 
 <section>
-      <h2 id="device">1.Device Interaction</h2>
+      <h2 id="device">1.Device Hardware Interaction</h2>
 
       <p>Native mobile operating systems offer a set of APIs which allow apps to interact with device hardware. This can include sensors, wireless communication readers, or battery and screen information and controlling APIs.</p>
 
@@ -128,38 +129,61 @@
 </section>
 
 <section class="featureset">
-      <h2 id="coreapps">2.Core Apps Interaction</h2>
-      <div data-feature="example">
-      <p>An increasing share of mobile devices relies on etc etc. Include some info on W3C specs related to this. Then repeat data feature for as many as possible</p>
-      </div>
+      <h2 id="coreapps">2.Device Apps Interaction</h2>
+
+      calendar.json
+      contacts.json
+      push-notifications.json
+      globalization.json
+      ime.json (not sure about this here)
+      local-notification.json
+
+      <p>Mobile operating systems have a set of features which are often reused in applications.</p>
+
+      <p data-feature="Calendar">The <a data-featureid="wiwa">Calendar API</a> ...</p>
+
+      <p data-feature="Contacts">The <a data-featureid="wiwa">Contacts API</a> ...</p>
+
+      <p data-feature="Push Notifications">The <a data-featureid="wiwa">Push Notifications API</a> ...</p>
+
+      <p data-feature="Globalization">The <a data-featureid="wiwa">Globalization API</a> ...</p>
+
+      <p data-feature="IME">The <a data-featureid="wiwa">IME API</a> ...</p>
+
+      <p data-feature="Local Notifications">The <a data-featureid="wiwa">Local Notifications API</a> ...</p>
+
 </section>
+
 
 <section class="featureset">
       <h2 id="geo">3.Geo</h2>
       <div data-feature="example">
-      <p>An increasing share of mobile devices relies on etc etc. Include some info on W3C specs related to this. Then repeat data feature for as many as possible</p>
 
-      <div data-feature="Geolocation">
-        <p>The <cite><strong><a data-featureid="geolocation">Geolocation API</a></strong></cite> provides a common interface for locating the device, independently of the underlying technology (GPS, WIFI networks identification, triangulation in cellular networks, etc.).</p>
-        <p>Work towards a new <a data-featureid="geofencing">geofencing API</a> (i.e. an API to detect when a device enters a given geographical area) has started.</p>
+      <p>Geolocation functionality allows apps to locate a device. APIs here care little for the underlying technology used but provide developers with information necessary to return to users their location.</p>
 
-      </div>
+      <p data-feature="Geolocation">The <a data-featureid="wiwa">Geolocation API</a> ...</p>
+
+      <p data-feature="Geofencing">The <a data-featureid="wiwa">Geofencing API</a> ...</p>
+
+      <p data-feature="Indoor">The <a data-featureid="wiwa">Indoor API</a> ...</p>
+
+      <p data-feature="Globalization">The <a data-featureid="wiwa">Globalization API</a> ...</p>
+
 </section>
 
 <section class="featureset">
-      <h2 id="service">3.Core Device, Task Management and Scheduling (Service?)</h2>
-      <div data-feature="example">
-      <p>An increasing share of mobile devices relies on etc etc. Include some info on W3C specs related to this. Then repeat data feature for as many as possible</p>
-      </div>
+      <h2 id="service">4. Application Lifecycle</h2>
 
-      <p>Due to their limited CPU, and more importantly to their limited battery, mobile devices require a lot of attention in terms of performance.</p>
-      <p data-feature="Timing hooks">The work started by the <a href="http://www.w3.org/2010/webperf/">Web Performance Working Group</a> on <cite><strong><a data-featureid="nav-timing">Navigation Timing</a></strong></cite>, <cite><strong><a  data-featureid="res-timing">Resource Timing</a></strong></cite>, <cite><strong><a  data-featureid="perf-timeline">Performance Timeline</a></strong></cite> and <cite><strong><a data-featureid="user-timing">User Timing</a></strong></cite>, gives tools to Web developers for optimizing their Web applications. The work on the <cite><strong><a data-featureid="frame-timing">Frame Timing</a></strong></cite> API aims at providing detailed information on the frame-per-second obtained when an application is running on the user device.</p>
-      <p data-feature="Network prioritization">The early work on a <cite><a data-featureid="lazy">Resource Priorities</a></cite> specification, part of the <a href="http://www.w3.org/2013/01/webperf.html">Web Performance Working Group charter</a>, would have let developers indicate which network requests should be prioritized, has now been abandoned. It is replaced by the <cite><a data-featureid="res-hints">Resource Hints</a></cite> specification, which let developers indicate what resources should be downloaded when the browser can afford it.</p>
-      <p data-feature="Priority handling">The proposed work on <a data-featureid="setimmediate">Efficient Script Yielding</a> offers the opportunity to Web developers to use more efficiently asynchronous programming, but has so far gained very limited traction.</p>
-      <p><span data-feature="Page Visibility detection">The <a data-featureid="visibilitychange">API to determine whether a Web page is being displayed</a> (<cite><strong>Page Visibility API</strong></cite>) can also be used to adapt the usage of resources to the need of the Web application, for instance by reducing network activity when the page is minimized.</span> <span data-feature="Animation optimization">Likewise, the <a data-featureid="animation-timing">Timing control for script-based animations API</a> can help reduce the usage of resources needed for playing animations.</span></p>
-      <p data-feature="Threading">Beyond optimization of resources, the perceived reactivity of an application is also a critical aspect of the mobile user experience. The <strong>thread-like mechanism</strong> made possible via <cite><a data-featureid="webworkers">Web Workers</a></cite> allows keeping the user interface responsive by offloading the most resource-intensive operations into a background process.</p>
-      <p data-feature="Battery Status">The <a data-featureid="battery">battery API</a> allows adjusting the use of resources to the current level of power available in the battery of a mobile device.</p>
-      <p data-feature="Optimization Best Practices">The <cite><a data-featureid="mwabp">Mobile Web Application Best Practices</a></cite> provide general advice on how to build Web applications that work well on mobile devices, taking into account in particular the needs for optimization. The opportunity to update these best practices is <a href="https://github.com/w3c-webmob/mobile_best_practices">under discussion</a> in the <a href="http://www.w3.org/Mobile/IG/">Web and Mobile Interest Group</a>.</p>
+      <p>Large applications and/or those which send constant requests to a network can cause drain on a mobile devices resources including battery and CPU power. APIs exist to allow native apps to manage their power and bandwidth consumption more intelligently.</p>
+
+      <p data-feature="Background-scheduler">The <a data-featureid="bgs">Background Scheduler API</a> ...</p>
+
+      <p data-feature="Cpu-wake">The <a data-featureid="wiwa">CPU Wake API</a> ...</p>
+
+      <p data-feature="Device-info">The <a data-featureid="wiwa">Device-info API</a> ...</p>
+
+      <p data-feature="Screen-wake">The <a data-featureid="wiwa">Screen-wake API</a> ...</p>
+
 </section>
 
 <section class="featureset">
