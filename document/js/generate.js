@@ -33,6 +33,7 @@ function describeFeature(xhr, table, featureid) {
 	    var data = JSON.parse(xhr.responseText);
         } catch (e) {
             console.error("Failed to parse " + featureid + ".json: " + xhr.responseText + "(" + e + ")");
+            return;
         }
         var name = Object.keys(data)[0];
         var feature = data[name];
