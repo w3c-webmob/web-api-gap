@@ -1,0 +1,3 @@
+language: python
+script:
+ - (set -e ; for i in api_by_features/*.json ; do cat $i|python -m json.tool > /dev/null || (echo "$i not valid" && false) ; done )
