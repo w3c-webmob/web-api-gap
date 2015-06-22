@@ -52,38 +52,7 @@
 
 <section>
       <h2>Document structure</h2>
-      <p>Decription 1.</p>
-
       <p>In this document readers can find a list of native APIs for mobile operating systems. Some of these APIs have web equivelants. This documnet hopes to highlight the gaps for possible standards work to close the gap with web and native.</p>
-
-      <p>The following application foundations are considered in this document: <a href="#Core">core web design and development</a>, <a href="#Multimedia">media and real-time communications</a>, <a href="#User_interactions">usability and accessibility</a>, <a href="#Sensors_and_hardware_integration">device interaction</a>, <a href="#Packaging">application lifecycle</a>, <a href="#Payment">payment and services</a>, <a href="#Performance_.26_Optimization">performance &amp; tuning</a> and <a href="#Security">security &amp; privacy</a>. In addition, it covers topics related to <a href="#Network">network integration</a>, <a href="#Hardwares Available">hardwares available</a> and <a href="#Licenses">licenses</a>.</p>
-
-      <p>In each category of features, a table summarizes for each feature:</p>
-      <ul>
-        <li>Feature</li>
-        <li>Description</li>
-        <li>API / Platforms</li>
-        <li>Related Web API</li>
-        <li>Working Group</li>
-        <li>Current implementations</li>
-        <li>Plugins</li>
-        <li>Security Concerns</li>
-        <li>Dependancies</li>
-      </ul>
-      <p>W3C creates Web standards by progressing documents through its <a href="http://www.w3.org/2005/10/Process-20051014/tr.html#Reports">Recommendation track</a>, with the following stages:</p>
-      <ul id="rectrack">
-          <li id="ed" class="recstage"><img src="http://www.w3.org/2013/09/wpd-rectrack-icons/ed.svg" alt="" width="50" height="50"> “Editors drafts” represent the current view of the editors of the specification but have no standing in terms of standardization.</li>
-          <li id="wd" class="recstage"><img src="http://www.w3.org/2013/09/wpd-rectrack-icons/wd.svg" alt="" width="50" height="50"> “Working Drafts” (WD) are early milestones of the Working Group progress.</li>
-          <li id="lcwd" class="recstage"><img src="http://www.w3.org/2013/09/wpd-rectrack-icons/lcwd.svg" alt="" width="50" height="53"> “Last Call Working Drafts” signal that the Working Group has determined that the specification fulfills its requirements and all the known issues have been resolved, and thus requests feedback from the larger community.</li>
-          <li id="cr" class="recstage"><img src="http://www.w3.org/2013/09/wpd-rectrack-icons/cr.svg" alt="" width="50" height="50"> “Candidate Recommendations” (CR) trigger a call for implementations where implementors are invited to implement the specification and send feedback; Working Groups are expected to show the specification gets implemented by running test suites they have developed.</li>
-          <li id="pr" class="recstage"><img src="http://www.w3.org/2013/09/wpd-rectrack-icons/pr.svg" alt="" width="50" height="50"> “Proposed Recommendations” (PR) manifests that the group has gathered sufficient implementation experience, and triggers the final review by W3C Members</li>
-          <li id="rec" class="recstage"><img src="http://www.w3.org/2013/09/wpd-rectrack-icons/rec.svg" alt="" width="50" height="53"> “W3C Recommendations” (Rec) are stable and completed Web standards; these documents only get updated rarely, through the “Edited Recommendation” process, as a results from errata collected by Working Groups.</li>
-      </ul>
-      
-      <p>For groups that have adopted it, the <a href="http://www.w3.org/2014/Process-20140801/#Reports">2014 update of the W3C Process</a> simplifies a bit the progression by removing the Last Call stage &em; instead of a single global call for review addressed to the whole community, Working Groups are empowered with solicitting reviews from their various related communities as long as they can demonstrate sufficient wide review of the specification before requesting transition to Candidate Recommendation.</p>
-
-      <p>Prior to starting standardization, a Working Group needs to be chartered, based on input from W3C Members, often through the organization of a <a href="http://www.w3.org/2003/08/Workshops/">workshop</a>, or after the reception of a <a href="http://www.w3.org/Submission/">W3C Member Submission</a>.</p>
-      <p>W3C has set up <a href="http://www.w3.org/community/">Community Groups</a>, a mechanism that allows anyone to do experimental work within the W3C infrastructure, under IPR rules that are compatible to transition the work to the W3C standardization process.</p>
 </section>
 
 <section>
@@ -91,41 +60,21 @@
 
       <p>Native mobile operating systems offer a set of APIs which allow apps to interact with device hardware. This can include sensors, wireless communication readers, or battery and screen information and controlling APIs.</p>
 
-      <p data-feature="Battery">The <a data-featureid="bat">Battery APIs</a> allows developers to get device battery status and ...</p>
+      <p>The <a data-featureid="battery">Battery APIs</a> allows developers to get device battery status and ...</p>
 
-      <p data-feature="Bluetooth">With developments in Internet of Things devices <a data-featureid="bth">Bluetooth</a> and  <a data-featureid="bthle">Bluetooth LE APIs</a> (for low energy devices) have become very useful to native app developers, allowing them to create screen experiences for external small devices or allowing users to communicate with other users in close range.</p> A <a href="http://www.w3.org/community/web-bluetooth/">Web Bluetooth Community Group</a> was started to develop a <a data-featureid="bluetooth">Bluetooth API for browsers</a> with a particular goal of supporting Bluetooth Low Energy devices.</p>
+      <p>With developments in Internet of Things devices <a data-featureid="bluetooth">Bluetooth</a> and  <a data-featureid="bluetooth-le">Bluetooth LE APIs</a> (for low energy devices) have become very useful to native app developers, allowing them to create screen experiences for external small devices or allowing users to communicate with other users in close range.</p> A <a href="http://www.w3.org/community/web-bluetooth/">Web Bluetooth Community Group</a> was started to develop a Bluetooth API for browsers with a particular goal of supporting Bluetooth Low Energy devices.</p>
 
-      <p data-feature="NFC_">Other close-ranged technologies in use include <a data-featureid="nfc">NFC APIs</a>. These are particularly useful for payments and ticketing use cases where contact is expected and security is more important. The <a href="http://www.w3.org/2012/nfc/">NFC Working Group</a> at W3C developed a web version of a<a data-featureid="nfc">Web NFC API</a>.</p>
+      <p>Other close-ranged technologies in use include <a data-featureid="nfc">NFC APIs</a>. These are particularly useful for payments and ticketing use cases where contact is expected and security is more important. The <a href="http://www.w3.org/2012/nfc/">NFC Working Group</a> at W3C developed a web version of a Web NFC API.</p>
 
-      <div data-feature="Sensors">
-        <p>As more use cases arrive for interacting with the world around users more sensor hardware is added to devices. Native mobile platforms allo app developers to interact with these sensors through a host of APIs. The <a data-featureid="cmps">Compass API</a> returns compass data good for map or AR use cases; <a data-featureid="bat">Magnetometer APIs</a> also support these use cases. The <a data-featureid="acc">Accelerometer APIs</a> can alert an app to the tilt or shift of the mobile's orientation to allow apps to change their user experience to meet the situation. 
+      <div>
+        <p>As more use cases arrive for interacting with the world around users more sensor hardware is added to devices. Native mobile platforms allo app developers to interact with these sensors through a host of APIs. The <a data-featureid="compass">Compass API</a> returns compass data good for map or AR use cases; <a data-featureid="magnetometer">Magnetometer APIs</a> also support these use cases. The <a data-featureid="accelerometer">Accelerometer APIs</a> can alert an app to the tilt or shift of the mobile's orientation to allow apps to change their user experience to meet the situation. 
       </div>
 
-      <p data-feature="Vibration">Mobile devices offer more feedback options now other than just sound, the <a data-featureid="vib">Vibration APIs</a> gives apps the ability to signal to the vibration element in devices to turn on, off or react in a certain way.</p>
+      <p>Mobile devices offer more feedback options now other than just sound, the <a data-featureid="vibration">Vibration APIs</a> gives apps the ability to signal to the vibration element in devices to turn on, off or react in a certain way.</p>
 
-      <p data-feature="Wifi-Wake">The <a data-featureid="wiwa">Wifi-Wake API</a> ...</p>
+      <p>The <a data-featureid="wifi-wake">Wifi-Wake API</a> ...</p>
 
-      <p data-feature="USB"><a data-featureid="wiwa">USB APIs</a> gives apps the ability to interact with other devices through the USB port.</p>
-
-      <script id="template" type="application/template">
-        <table>
-          <thead>
-            <tr>
-              <th>Feature</th>
-              <th>Description</th>
-              <th>API / Platforms</th>
-              <th>Related Web API</th>
-              <th>Working Group</th>
-              <th>Current implementations</th>
-              <th>Plugins</th>
-              <th>Security Concern</th>
-              <th>Dependencies</th>
-            </tr>
-          </thead>
-          <tbody>
-          </tbody>
-        </table>
-      </script>
+      <p><a data-featureid="usb">USB APIs</a> gives apps the ability to interact with other devices through the USB port.</p>
 </section>
 
 <section class="featureset">
@@ -133,34 +82,33 @@
 
       <p>Mobile operating systems have a set of features which are often reused in applications.</p>
 
-      <p data-feature="Calendar">The <a data-featureid="wiwa">Calendar API</a> ...</p>
+      <p>The <a data-featureid="calendar">Calendar API</a> ...</p>
 
-      <p data-feature="Contacts">The <a data-featureid="wiwa">Contacts API</a> ...</p>
+      <p>The <a data-featureid="contacts">Contacts API</a> ...</p>
 
-      <p data-feature="Push Notifications">The <a data-featureid="wiwa">Push Notifications API</a> ...</p>
+      <p>The <a data-featureid="push-notifications">Push Notifications API</a> ...</p>
 
-      <p data-feature="Globalization">The <a data-featureid="wiwa">Globalization API</a> ...</p>
+      <p>The <a data-featureid="globalization">Globalization API</a> ...</p>
 
-      <p data-feature="IME">The <a data-featureid="wiwa">IME API</a> ...</p>
+      <p>The <a data-featureid="ime">IME API</a> ...</p>
 
-      <p data-feature="Local Notifications">The <a data-featureid="wiwa">Local Notifications API</a> ...</p>
+      <p>The <a data-featureid="local-notification">Local Notifications API</a> ...</p>
 
 </section>
 
 
 <section class="featureset">
       <h2 id="geo">3.Geo</h2>
-      <div data-feature="example">
+      <div>
 
       <p>Geolocation functionality allows apps to locate a device. APIs here care little for the underlying technology used but provide developers with information necessary to return to users their location.</p>
 
-      <p data-feature="Geolocation">The <a data-featureid="wiwa">Geolocation API</a> ...</p>
+      <p>The <a data-featureid="geolocation">Geolocation API</a> ...</p>
 
-      <p data-feature="Geofencing">The <a data-featureid="wiwa">Geofencing API</a> ...</p>
+      <p>The <a data-featureid="geofencing">Geofencing API</a> ...</p>
 
-      <p data-feature="Indoor">The <a data-featureid="wiwa">Indoor API</a> ...</p>
+      <p>The <a data-featureid="indoor">Indoor API</a> ...</p>
 
-      <p data-feature="Globalization">The <a data-featureid="wiwa">Globalization API</a> ...</p>
 
 </section>
 
@@ -169,13 +117,13 @@
 
       <p>Large applications and/or those which send constant requests to a network can cause drain on a mobile devices resources including battery and CPU power. APIs exist to allow native apps to manage their power and bandwidth consumption more intelligently.</p>
 
-      <p data-feature="Background-scheduler">The <a data-featureid="bgs">Background Scheduler API</a> ...</p>
+      <p>The <a data-featureid="background-scheduler">Background Scheduler API</a> ...</p>
 
-      <p data-feature="Cpu-wake">The <a data-featureid="wiwa">CPU Wake API</a> ...</p>
+      <p>The <a data-featureid="cpu-wake">CPU Wake API</a> ...</p>
 
-      <p data-feature="Device-info">The <a data-featureid="wiwa">Device-info API</a> ...</p>
+      <p>The <a data-featureid="device-info">Device-info API</a> ...</p>
 
-      <p data-feature="Screen-wake">The <a data-featureid="wiwa">Screen-wake API</a> ...</p>
+      <p>The <a data-featureid="screen-wake">Screen-wake API</a> ...</p>
 
 </section>
 
@@ -184,13 +132,12 @@
 
       <p>Social and messaging native apps on mobile devices often use camera and microphone input to...</p>
 
-      <p data-feature="Camera-stream">The <a data-featureid="wiwa">Camera-stream API</a> ...</p>
+      <p>The <a data-featureid="camera-stream">Camera-stream API</a> ...</p>
 
-      <p data-feature="Media-capture">The <a data-featureid="wiwa">mMdia-capture API</a> ...</p>
+      <p>The <a data-featureid="media-capture">Media-capture API</a> ...</p>
 
-      <p data-feature="Media-play">The <a data-featureid="wiwa">Media Play API</a> ...</p>
+      <p>The <a data-featureid="media-play">Media Play API</a> ...</p>
 
-      <p> In W3C, the <a href="http://www.w3.org/2011/04/webrtc/">Web Real-Time Communications Working Group</a> and the <a href="http://www.w3.org/2009/dap/">Device APIs Working Group</a> are building together an <a data-featureid="getusermedia">API (<code>getUserMedia</code>)</a> to directly manipulate <strong>streams from camera and microphones</strong>, as well as an <a data-featureid="recording">API to record these streams</a> into files, and another API to use access to cameras to <a data-featureid="imagecapture">take photos programatically</a>.</p>
 
 </section>
 
@@ -199,11 +146,11 @@
       
       <p>Native apps sometimes have use cases for file management and trasfer, this can include sending, receiving and opening photos or reading pdf documents...</p>
 
-      <p data-feature="File-transfer-background">The <a data-featureid="wiwa">File Transfer Background API</a> ...</p>
+      <p>The <a data-featureid="file-transfer-background">File Transfer Background API</a> ...</p>
 
-      <p data-feature="File-transfer">The <a data-featureid="wiwa">File Transfer API</a> ...</p>
+      <p>The <a data-featureid="file-transfer">File Transfer API</a> ...</p>
 
-      <p data-feature="Secure-storage">The <a data-featureid="wiwa">Secure Storage API</a> ...</p>
+      <p>The <a data-featureid="secure-storage">Secure Storage API</a> ...</p>
 
 </section>
 
@@ -214,13 +161,11 @@
 
       <p>The<a href="">Contacts API</a> is ... and can be found above. </p>
 
-      <p data-feature="telephony">The <a data-featureid="wiwa">Telephony API</a> ...</p>
+      <p>The <a data-featureid="telephony">Telephony API</a> ...</p>
 
-      <p data-feature="Network-info">The <a data-featureid="wiwa">Network Information API</a> ...</p>
+      <p>The <a data-featureid="network-info">Network Information API</a> ...</p>
 
-      <p data-feature="Messaging">The <a data-featureid="wiwa">Messaging API</a> ...</p>
-
-      <p data-feature="Globalization">The <a data-featureid="wiwa">Globalization API</a> ...</p>
+      <p>The <a data-featureid="messaging">Messaging API</a> ...</p>
 
 </section>
 
@@ -229,11 +174,10 @@
 
       <p>Payments, both in-app and in-store are a key feature of a number of native mobile apps and also a direct way of monitization for mobile app developers...</p>
 
-      <p data-feature="in-app-billing">The <a data-featureid="wiwa">In App Billing API</a> ...</p>
+      <p>The <a data-featureid="in-app-billing">In App Billing API</a> ...</p>
 
-      <p data-feature="Purchase">The <a data-featureid="wiwa">Purchase API</a> ...</p>
+      <p>The <a data-featureid="purchase">Purchase API</a> ...</p>
 
-      <p>In Octobober 2014, W3C <a href="http://www.w3.org/2014/04/payments/webpayments_charter.html">chartered</a> the <a href="http://www.w3.org/Payments/IG/">Web Payment Interest Group</a> to drive work in this space.</p>
 </section>
 
 <section class="featureset">
@@ -241,7 +185,7 @@
       
       <p>Webview...</p>
 
-      <p data-feature="Webview">The <a data-featureid="wiwa">Webview API</a> ...</p>
+      <p>The <a data-featureid="webview">Webview API</a> ...</p>
       
 </section>
 
