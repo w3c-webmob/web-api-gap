@@ -6,19 +6,19 @@
         "security concerns" : "",
         "iOS": {
 	    "api": "footprint",
-	    "url": "https://developer.apple.com/library/ios/samplecode/footprint/Introduction/Intro.html"
+	    "url": "https://developer.apple.com/library/ios/samplecode/footprint/Introduction/Intro.html",
 	    "working group": "Apple"
 	},
         "Android": {
 	    "api": "GoogleMap.OnIndoorStateChangeListener",
-	    "url": "http://developer.android.com/reference/com/google/android/gms/maps/GoogleMap.OnIndoorStateChangeListener.html"
+	    "url": "http://developer.android.com/reference/com/google/android/gms/maps/GoogleMap.OnIndoorStateChangeListener.html",
 	    "working group": "Google"
 	},
         "Windows 8": "",
         "Cordova": "",
         "FirefoxOS": {
 	    "api": "OS/Geolocation",
-	    "url": "https://wiki.mozilla.org/Firefox_OS/Geolocation"
+	    "url": "https://wiki.mozilla.org/Firefox_OS/Geolocation",
 	    "working group": "Mozilla"	    
 	},
         "ChromeApps": "",

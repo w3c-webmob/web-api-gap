@@ -28,7 +28,7 @@
         "ChromeApps": {
             "api": "chrome.bluetooth",
             "url": "https://developer.chrome.com/apps/bluetooth",
-	    "working group": "Google"
+	    "working group": "Google",
             "note": "seems only in central role (as part of chrome.bluetooth)"
         },
         "Tizen": "",

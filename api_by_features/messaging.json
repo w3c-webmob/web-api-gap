@@ -2,7 +2,7 @@
     "Messaging": {
     	"description": "Ability to send and receive SMS, MMS",
         "browser": {
-	    "note": "partial send with dedicated URL schemes; alternative via on-line services"
+	    "note": "partial send with dedicated URL schemes; alternative via on-line services",
 	    "working group": "W3C"
 	},
         "sysapp": {

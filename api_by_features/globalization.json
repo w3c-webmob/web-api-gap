@@ -37,7 +37,7 @@
         "ChromeApps": {
 	    "api": "chrome.i18n",
 	    "url": "http://developer.chrome.com/extensions/i18n",
-	    "working group": "Google"
+	    "working group": "Google",
 	    "note": "Adds the ability to get list of accepted languages `chrome.i18n"
 	},
         "Tizen": {

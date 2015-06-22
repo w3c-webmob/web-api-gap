@@ -16,7 +16,7 @@
         "Android": {
             "api": "android.os.Build",
             "url": "http://developer.android.com/reference/android/os/Build.html",
-	    "working group": "Google"
+	    "working group": "Google",
 	    "note": "android.os.Build for model, and unique id via [android.provider.Setting.Secure.ANDROID_ID]http://developer.android.com/reference/android/provider"
         },
         "Windows 8": {

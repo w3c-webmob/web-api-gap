@@ -33,7 +33,7 @@
 	},
         "FirefoxOS": "sysapp",
         "ChromeApps": {
-	    "note": "Access to on-line service Google Contacts"
+	    "note": "Access to on-line service Google Contacts",
 	    "working group": "Google"
 	},
         "Tizen": "sysapp",

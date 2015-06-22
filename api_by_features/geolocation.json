@@ -30,7 +30,7 @@
         "ChromeApps": {
 	    "api": "chrome.location",
 	    "url": "http://developer.chrome.com/extensions/location",
-	    "working group": "Google"
+	    "working group": "Google",
 	    "note": "adds onLocationUpdate to the browser API"
 	},
         "Tizen": "browser",
