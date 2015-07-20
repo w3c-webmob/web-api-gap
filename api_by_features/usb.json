@@ -17,7 +17,11 @@
 	    "url": "https://wiki.mozilla.org/WebAPI/WebUSB",
 	    "working group": "Firefox"
 	},
-        "ChromeApps": "",
+        "ChromeApps": {
+             "api": "usb",
+             "url": "https://developer.chrome.com/apps/usb",
+             "working group": "Google"
+        },
         "Tizen": "",
 	"Blackberry": {
 	    "api": "usb",
