@@ -30,11 +30,13 @@
             "working group": "Apache"
         },
         "FirefoxOS": {
-            "url": "browser",
+            "api": "DeviceMotionEvent.acceleration",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/acceleration",
 	    "working group": "Mozilla"
         },
         "ChromeApps": {
-            "url": "browser",
+            "api": "DeviceOrientation Event Specification",
+            "url": "http://www.w3.org/TR/2011/WD-orientation-event-20111201/",
 	    "working group": "Google"
         },
         "Tizen": {
