@@ -24,7 +24,11 @@
       	    "note": "Only in central role Windows 8 Bluetooth Low Energy Overview"
         },
         "Cordova": "",
-        "FirefoxOS": "",
+        "FirefoxOS": {
+            "api": "Web_Bluetooth_API",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API",
+            "working group": "Mozilla"
+        },
         "ChromeApps": {
             "api": "chrome.bluetooth",
             "url": "https://developer.chrome.com/apps/bluetooth",
