@@ -35,7 +35,11 @@
 	    "url": "https://wiki.mozilla.org/Mobile/Projects/GeckoWebView",
 	    "working group": "Firefox"
 	},
-        "ChromeApps": "",
+        "ChromeApps": {
+            "api": "webview",
+            "url": "https://developer.chrome.com/multidevice/webview/overview",
+            "working group": "Google"
+        }
         "Tizen": "",
 	"Blackberry": {
 	    "api": "WebView",
