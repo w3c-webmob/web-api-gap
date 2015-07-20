@@ -29,14 +29,10 @@
             "working group": "Apache"
         },
         "FirefoxOS": {
-            "api": "BatteryManager",
-            "url": "https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager"
-            "working group": "Mozilla"
+            "api": "browzer"
         },
         "ChromeApps": {
-            "api": "battery-status",
-            "url": "http://www.w3.org/TR/2012/CR-battery-status-20120508/"
-            "working group": "Google"
+            "api": "browzer"
         },
         "Tizen": {
             "url": "browser"
