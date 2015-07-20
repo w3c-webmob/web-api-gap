@@ -26,7 +26,7 @@
         "Cordova": "",
         "FirefoxOS": {
             "api": "Web_Bluetooth_API",
-            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API_%28Firefox_OS%29",
             "working group": "Mozilla"
         },
         "ChromeApps": {
