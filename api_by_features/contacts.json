@@ -32,12 +32,7 @@
 	    "working group": "Apache"
 	},
         "FirefoxOS": "sysapp",
-        "ChromeApps": {
-            "api": "contacts-manager-api",
-            "url": "http://www.w3.org/2012/sysapps/contacts-manager-api/",
-	    "note": "Access to on-line service Google Contacts",
-	    "working group": "Google"
-	},
+        "ChromeApps": "sysapp",
         "Tizen": "sysapp",
 	"Blackberry": {
             "api": "Contacts",
