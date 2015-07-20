@@ -12,8 +12,16 @@
 	},
         "Windows 8": "",
         "Cordova": "",
-        "FirefoxOS": "",
-        "ChromeApps": "",
+        "FirefoxOS": {
+            "api": "PowerManager",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/PowerManager",
+            "working group": "Mozilla"
+        },
+        "ChromeApps": {
+             "api": "chrome.power API",
+             "url": "https://developer.chrome.com/extensions/power"
+             "working group": "Google"
+        },
         "Tizen": "",
 	"Blackberry": ""
     }
