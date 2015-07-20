@@ -29,7 +29,9 @@
             "working group": "Apache"
         },
         "FirefoxOS": {
-            "api": "browzer"
+            "api": "BatteryManager",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager",
+            "working group": "Mozilla"
         },
         "ChromeApps": {
             "api": "browzer"
