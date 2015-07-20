@@ -35,9 +35,7 @@
 	    "working group": "Mozilla"
         },
         "ChromeApps": {
-            "api": "DeviceOrientation Event Specification",
-            "url": "http://www.w3.org/TR/2011/WD-orientation-event-20111201/",
-	    "working group": "Google"
+            "api": "browser",
         },
         "Tizen": {
             "url": "browser",
