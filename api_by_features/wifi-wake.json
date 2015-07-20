@@ -13,7 +13,11 @@
 	    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WifiManager/enabled",
 	    "working group": "Firefox"
 	},
-        "ChromeApps": "",
+        "ChromeApps": {
+            "api": "chrome.networkingPrivate",
+            "url": "https://developer.chrome.com/extensions/networkingPrivate",
+            "working group": "Google"
+        },
         "Tizen": "",
 	"Blackberry": ""
     }
