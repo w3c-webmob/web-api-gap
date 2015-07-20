@@ -27,7 +27,11 @@
 	},
         "Cordova": "",
         "FirefoxOS": "",
-        "ChromeApps": "",
+        "ChromeApps": {
+            "api": "In-App Payments with Google Wallet and the Chrome Web Store API",
+            "url": "https://developer.chrome.com/webstore/payments-iap"
+        	
+        },
         "Tizen": "",
 	"Blackberry": {
 	    "api": "Payment Service",
