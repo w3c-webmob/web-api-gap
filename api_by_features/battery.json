@@ -28,13 +28,9 @@
             "url": "http://plugins.cordova.io/#/package/org.apache.cordova.battery-status",
             "working group": "Apache"
         },
-        "FirefoxOS": {
-            "url": "browser"
-        },
+        "FirefoxOS": "browser",
         "ChromeApps": "",
-        "Tizen": {
-            "url": "browser"
-        },
+        "Tizen": "browser",
 	"Blackberry": {
             "api": "BatteryChargingState",
             "url": "http://developer.blackberry.com/native/reference/cascades/bb__device__batterychargingstate.html?f=battery",
