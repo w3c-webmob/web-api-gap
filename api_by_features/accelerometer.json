@@ -29,18 +29,9 @@
             "url": "http://cordova.apache.org/docs/en/3.3.0/cordova_accelerometer_accelerometer.md.html#Accelerometer",
             "working group": "Apache"
         },
-        "FirefoxOS": {
-            "url": "browser",
-	    "working group": "Mozilla"
-        },
-        "ChromeApps": {
-            "url": "browser",
-	    "working group": "Google"
-        },
-        "Tizen": {
-            "url": "browser",
-	    "working group": "Linux Foundation"
-        },
+        "FirefoxOS": "browser",
+        "ChromeApps": "browser",
+        "Tizen": "browser",
 	"Blackberry": {
 	    "api": "Accelerometers",
 	    "url": "http://developer.blackberry.com/native/reference/core/com.qnx.doc.bps.lib_ref/topic/about_accelerometer_8h.html?f=accelerometer",
