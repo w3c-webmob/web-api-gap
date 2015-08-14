@@ -1,0 +1,28 @@
+{
+    "Mobile Network ID": {
+    	"description": "Ability to get the identifier used in mobile network.",
+        "browser": "",
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": {
+           "api" : "CTTtelephonyNetworkInfo",
+           "url" : "https://developer.apple.com/library/prerelease/ios/documentation/NetworkingInternet/Reference/CTTelephonyNetworkInfo/index.html
+           "working group": "Apple"
+        },
+        "Android": {
+	         "api": "Telephony Manager",
+	         "url": "http://developer.android.com/reference/android/telephony/TelephonyManager.html",
+	         "working group": "Google"
+	      },
+        "Windows 8": "",
+        "Cordova": "",
+        "FirefoxOS": {
+            "api": "MozMobileNetworkInfo",
+            "url": "https://developer.mozilla.org/ja/docs/Web/API/MozMobileNetworkInfo",
+            "working group": "Mozilla"
+        },
+        "ChromeApps": "",
+        "Tizen": "",
+	      "Blackberry": ""
+    }
+}
