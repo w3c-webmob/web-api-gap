@@ -11,9 +11,22 @@
         "iOS": "",
         "Android": "",
         "Windows 8": "",
-        "Cordova": "",
-        "FirefoxOS": "",
-        "ChromeApps": "",
+        "Cordova": {
+	    "api": "notification.alert",
+	    "url": "https://cordova.apache.org/docs/en/2.5.0/cordova_notification_notification.md.html#Notification",
+	    "working group": "Apache"
+
+	},
+        "FirefoxOS": {
+	    "api": "Notification.Notification()",
+	    "url": "https://developer.mozilla.org/en-US/docs/Web/API/notification",
+	    "working group": "Mozilla"
+	},
+        "ChromeApps": {
+	    "api": "chrome.notifications",
+	    "url": "https://cordova.apache.org/docs/en/2.5.0/cordova_notification_notification.md.html#Notification",
+	    "working group": "Google"
+	},
         "Tizen": {
 	    "api": "tizen.notification",
 	    "url": "https://developer.tizen.org/dev-guide/2.2.0/org.tizen.web.device.apireference/tizen/notification.html",
