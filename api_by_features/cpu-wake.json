@@ -18,9 +18,9 @@
             "working group": "Mozilla"
         },
         "ChromeApps": {
-             "api": "chrome.power API",
-             "url": "https://developer.chrome.com/extensions/power"
-             "working group": "Google"
+            "api": "chrome.power API",
+            "url": "https://developer.chrome.com/extensions/power",
+            "working group": "Google"
         },
         "Tizen": "",
 	"Blackberry": ""
