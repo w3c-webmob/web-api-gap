@@ -28,15 +28,19 @@
         "Cordova": {
 	    "api": "WebView",
 	    "url": "http://cordova.apache.org/docs/en/3.3.0/guide_hybrid_webviews_index.md.html#Embedding%20WebViews",
-	    "working group": "Apache Cordova"
+	    "working group": "Apache"
 	},
         "FirefoxOS": {
 	    "api": "GeckoView",
 	    "url": "https://wiki.mozilla.org/Mobile/Projects/GeckoWebView",
-	    "working group": "Firefox"
+	    "working group": "Mozilla"
 	},
         "ChromeApps": "",
-        "Tizen": "",
+        "Tizen": {
+	    "api": "WebSetting API",
+	    "url": "https://developer.tizen.org/dev-guide/2.3.0/org.tizen.web.apireference/html/device_api/mobile/tizen/websetting.html",
+	    "working group": "Linux"
+	},
 	"Blackberry": {
 	    "api": "WebView",
 	    "url": "http://developer.blackberry.com/native/reference/cascades/bb__cascades__webview.html?f=webview",
