@@ -1,0 +1,22 @@
+{
+    "Audio-Video communications": {
+    	"description": "Ability to establish an audio-video communication channel",
+        "browser": {
+	    "api": "WebRTC",
+	    "url": "http://www.w3.org/TR/webrtc/",
+	    "working group": "W3C"
+	},
+    "iOS": {
+	    "api": "Facetime URL Scheme",
+	    "url": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html",
+	    "working group": "Apple"
+	},
+        "Android": null,
+        "Windows": {"api": "Skype URL scheme","url":"https://msdn.microsoft.com/en-us/library/office/dn745882.aspx"},
+        "Cordova": "",
+        "FirefoxOS": "browser",
+        "ChromeApps": "browser",
+        "Tizen": "",
+	"Blackberry": null
+    }
+}

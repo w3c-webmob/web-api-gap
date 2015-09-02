@@ -1,10 +1,10 @@
 {
-    "Telephony": {
-    	"description": "Ability to connect to a phone network and dial numbers",
+    "Phone dialer": {
+    	"description": "Ability to invoke a phone dialer",
         "browser": {
-	    "api": "WebRTC",
-	    "url": "http://www.w3.org/TR/webrtc/",
-	    "working group": "W3C"
+	    "api": "tel: URI scheme",
+	    "url": "https://tools.ietf.org/html/rfc3966",
+      "status": "standard"
 	},
         "sysapp": {
 	    "api": "Web Telephony API",
@@ -31,7 +31,7 @@
         "Cordova": "",
         "FirefoxOS": "browser",
         "ChromeApps": "browser",
-        "Tizen": "sysapp",
+        "Tizen": "browser",
 	"Blackberry": ""
     }
 }
