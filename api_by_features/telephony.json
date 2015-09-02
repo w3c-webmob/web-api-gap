@@ -28,7 +28,7 @@
 	    "url": "http://msdn.microsoft.com/EN-US/library/windowsphone/develop/microsoft.phone.tasks.phonecalltask%28v=vs.105%29.aspx",
 	    "working group": "Microsoft"
 	},
-        "Cordova": "browser",
+        "Cordova": "",
         "FirefoxOS": "browser",
         "ChromeApps": "browser",
         "Tizen": "sysapp",
