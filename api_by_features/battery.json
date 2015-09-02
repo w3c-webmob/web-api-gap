@@ -18,7 +18,7 @@
             "url": "http://developer.android.com/reference/android/os/BatteryManager.html",
             "working group": "Google"
         },
-        "Windows 8": {
+        "Windows": {
             "api": "Windows.Phone.Devices.Power.Battery",
             "url": "https://msdn.microsoft.com/library/windows/apps/windows.phone.devices.power.battery%28v=vs.105%29.aspx",        	
             "working group": "Microsoft"

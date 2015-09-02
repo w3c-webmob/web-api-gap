@@ -14,7 +14,7 @@
             "url": "http://developer.android.com/guide/topics/connectivity/bluetooth.html",
 	    "working group": "Google"
         },
-        "Windows 8": {
+        "Windows": {
             "api": "Bluetooth",
             "url": "https://msdn.microsoft.com/library/windows/apps/jj207007%28v=vs.105%29.aspx",
 	    "working group": "Microsoft"

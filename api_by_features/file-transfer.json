@@ -18,7 +18,7 @@
             "url": "https://developer.android.com/reference/java/net/HttpURLConnection.html",
 	    "working group": "Google"
         },
-        "Windows 8": {
+        "Windows": {
             "api": "File Transfer",
             "url": "https://msdn.microsoft.com/en-us/library/ee276615%28v=bts.10%29.aspx",
 	    "working group": "Microsoft"

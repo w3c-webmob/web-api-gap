@@ -16,7 +16,7 @@
             "url": "http://developer.android.com/guide/topics/providers/calendar-provider.html",
 	    "working group": "Google"
         },
-        "Windows 8": {
+        "Windows": {
             "api": ["SaveAppointmentTask",
 		    "AppointmentManager,",
 		    "Live Connect API"],

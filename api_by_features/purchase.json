@@ -18,7 +18,7 @@
 	    "url": "https://developers.google.com/wallet/instant-buy/android/tutorial",
 	    "working group": "Google"
 	},
-        "Windows 8": {
+        "Windows": {
 	    "api": "Microsoft.Phone.Wallet.WalletTransactionItem",
 	    "url": "http://msdn.microsoft.com/en-us/library/windows/apps/microsoft.phone.wallet.wallettransactionitem.aspx",
 	    "working group": "Microsoft"

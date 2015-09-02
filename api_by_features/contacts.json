@@ -21,7 +21,7 @@
             "url": "http://developer.android.com/reference/android/provider/ContactsContract.html",
 	    "working group": "Google"
         },
-        "Windows 8": {
+        "Windows": {
             "api": "ContactManager",
             "url": "http://msdn.microsoft.com/en-us/library/windows/apps/windows.applicationmodel.contacts.contactmanager.aspx",
 	    "working group": "Microsoft"

@@ -18,7 +18,7 @@
 	    "url": "http://developer.android.com/reference/android/media/MediaPlayer.html",
 	    "working group": "Google"
 	},
-        "Windows 8": {
+        "Windows": {
 	    "api": "Windows.Media.Playback",
 	    "url": "https://msdn.microsoft.com/en-us/library/windows/apps/windows.media.playback.aspx",
 	    "working group": "Microsoft"

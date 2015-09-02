@@ -18,7 +18,7 @@
 	    "url": "https://developer.android.com/reference/android/net/Network.html",
 	    "working group": "Google"
 	},
-        "Windows 8": {
+        "Windows": {
 	    "api": "Network",
 	    "url": "https://msdn.microsoft.com/en-us/library/windows/desktop/ms733489%28v=vs.85%29.aspx",
 	    "working group": "Microsoft"

@@ -18,7 +18,7 @@
 	    "url": "http://developer.android.com/google/gcm/index.html",
 	    "working group": "Google"
 	},
-        "Windows 8": {
+        "Windows": {
 	    "api": "Windows Push Notification Services",
 	    "url": "http://msdn.microsoft.com/en-us/library/windows/apps/hh913756.aspx",
 	    "working group": "Microsoft"

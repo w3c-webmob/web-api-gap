@@ -23,7 +23,7 @@
 		    "http://developer.android.com/reference/java/text/NumberFormat.html"],
 	    "working group": "Google"
         },
-        "Windows 8": {
+        "Windows": {
             "api": "National Language Support",
             "url": "http://msdn.microsoft.com/en-us/library/windows/desktop/dd319083%28v=vs.85%29.aspx",
 	    "working group": "Microsoft"

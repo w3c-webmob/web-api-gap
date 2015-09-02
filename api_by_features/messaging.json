@@ -21,7 +21,7 @@
 	    "url": "http://developer.android.com/reference/android/telephony/SmsManager.html",
 	    "working group": "Google"
 	},
-        "Windows 8": {
+        "Windows": {
 	    "api": "Windows.Devices.Sms",
 	    "url": "http://code.msdn.microsoft.com/windowsapps/Sms-SendReceive-fa02e55e",
 	    "working group": "Microsoft"

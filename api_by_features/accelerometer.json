@@ -18,7 +18,7 @@
             "url": "http://developer.android.com/guide/topics/sensors/sensors_motion.html",
             "working group": "Google"
         },
-        "Windows 8": {
+        "Windows": {
             "api": "Windows.Devices.Sensors.Accelerometer",
             "url": "http://msdn.microsoft.com/en-us/library/windows/apps/windows.devices.sensors.accelerometer",
             "notes": "has “shake” detection, update interval setting",

@@ -10,7 +10,7 @@
         "security concerns" : "",
         "iOS": "",
         "Android": "",
-        "Windows 8": "",
+        "Windows": "",
         "Cordova": {
 	    "api": "Splashscreen",
 	    "url": "http://cordova.apache.org/docs/en/3.3.0/cordova_splashscreen_splashscreen.md.html#Splashscreen",

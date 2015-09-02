@@ -18,7 +18,7 @@
             "url": "http://developer.android.com/reference/android/hardware/Camera.html",
 	    "working group": "Google"
         },
-        "Windows 8": {
+        "Windows": {
             "api": "window.media.capture.mediacapture",
             "url": "https://msdn.microsoft.com/en-us/library/windows/apps/windows.media.capture.mediacapture.aspx",
 	    "working group": "Microsoft"

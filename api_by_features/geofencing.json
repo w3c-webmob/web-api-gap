@@ -14,7 +14,7 @@
             "url": "http://developer.android.com/training/location/geofencing.html",
 	    "working group": "Google"
         },
-        "Windows 8": {
+        "Windows": {
             "api": "windows.devices.geolocation.geofencing",
             "url": "http://msdn.microsoft.com/en-us/library/windows/apps/windows.devices.geolocation.geofencing",
 	    "working group": "Microsoft"

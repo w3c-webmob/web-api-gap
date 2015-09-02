@@ -14,7 +14,7 @@
 	    "url": "http://developer.android.com/reference/android/view/View.html#setKeepScreenOn%28boolean%29",
 	    "working group": "Google"
 	},
-        "Windows 8": {
+        "Windows": {
 	    "api": "Microsoft.Phone.Shell.UserIdleDetectionMode.Disabled",
 	    "url": "http://msdn.microsoft.com/en-us/library/windowsphone/develop/ff941090%28v=vs.105%29.aspx",
 	    "working group": "Microsoft"

@@ -10,7 +10,7 @@
 	    "url": "https://developer.android.com/guide/topics/connectivity/usb/index.html",
 	    "working group": "Google"
 	},
-        "Windows 8": "",
+        "Windows": "",
         "Cordova": "",
         "FirefoxOS": {
 	    "api": "WebUSB",

@@ -18,7 +18,7 @@
             "url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getOrientation%28float%5B%5D,%20float%5B%5D%29",
 	    "working group": "Google"
         },
-        "Windows 8": {
+        "Windows": {
             "api": "compass.getCurrentReading",
             "url": "http://msdn.microsoft.com/en-US/library/windows/apps/windows.devices.sensors.compass.getcurrentreading",
 	    "working group": "Microsoft"

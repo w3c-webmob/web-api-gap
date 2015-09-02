@@ -18,7 +18,7 @@
 	    "url": "https://developers.google.com/wallet/instant-buy/android/tutorial",
 	    "working group": "Google"
 	},
-        "Windows 8": {
+        "Windows": {
 	    "api": "CurrentApp.RequestProductPurchaseAsync",
 	    "url": "http://msdn.microsoft.com/en-us/library/windows/apps/jj206950.aspx",
 	    "working group": "Microsoft"

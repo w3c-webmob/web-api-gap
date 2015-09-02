@@ -18,7 +18,7 @@
 	    "url": "https://developer.android.com/reference/android/webkit/WebView.html",
 	    "working group": "Google"
 	},
-        "Windows 8": {
+        "Windows": {
 	    "api": "WebView class",
 	    "url": "https://msdn.microsoft.com/en-us/library/windows/apps/xaml/windows.ui.xaml.controls.webview.aspx",
 	    "working group": "Microsoft"

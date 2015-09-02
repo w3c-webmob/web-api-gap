@@ -17,7 +17,7 @@
 	    "working group": "Google",
             "note": "Only as central role (receiver); peripheral announced for Android L Bluetooth Low Energy starting from 4.3"
         },
-        "Windows 8": {
+        "Windows": {
             "api": "Bluetooth Low Energy Functions",
             "url": "https://msdn.microsoft.com/en-us/library/windows/hardware/hh450825%28v=vs.85%29.aspx",
 	    "working group": "Microsoft",

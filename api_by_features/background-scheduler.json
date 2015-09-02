@@ -18,7 +18,7 @@
             "url": "http://developer.android.com/reference/android/app/AlarmManager.html",
 	    "working group": "Google"
         },
-        "Windows 8": {
+        "Windows": {
             "api": "WinJS.Utilities.Scheduler",
             "url": "msdn.microsoft.com/en-us/library/windows/apps/dn301978.aspx",
 	    "working group": "Microsoft"
