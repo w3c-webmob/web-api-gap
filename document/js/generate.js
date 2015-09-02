@@ -38,7 +38,9 @@ function populate(e) {
 
     for (var j = 0 ; j < features.length ; j++) {
         var featureid = features[j].dataset["featureid"];
-        (function(featureid, table) {
+        var row = tr.cloneNode();
+        tbody.appendChild(row);
+        (function(featureid, row) {
           var featureData;
           fetch("../api_by_features/" + featureid + ".json")
           .then(jsonHandler)
@@ -58,17 +60,16 @@ function populate(e) {
           }).then(function(data) {
             var name = Object.keys(featureData)[0];
             featureData[name].TR = data;
-            describeFeature(featureData, table, featureid);
+            describeFeature(featureData, row, featureid);
           });
-        })(featureid, tbody);
+        })(featureid, row);
     }
   }
 }
 
-function describeFeature(data, table, featureid) {
+function describeFeature(data, tr, featureid) {
         var name = Object.keys(data)[0];
         var feature = data[name];
-        var tr = document.createElement("tr");
         var th = document.createElement("th");
         th.textContent = name;
         var desc = document.createElement("img");
