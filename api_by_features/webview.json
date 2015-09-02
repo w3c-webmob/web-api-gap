@@ -28,13 +28,9 @@
 	    "url": "http://cordova.apache.org/docs/en/3.3.0/guide_hybrid_webviews_index.md.html#Embedding%20WebViews",
 	    "working group": "Apache Cordova"
 	},
-        "FirefoxOS": {
-	    "api": "GeckoView",
-	    "url": "https://wiki.mozilla.org/Mobile/Projects/GeckoWebView",
-	    "working group": "Firefox"
-	},
-        "ChromeApps": "",
-        "Tizen": "",
+        "FirefoxOS": "browser",
+        "ChromeApps": "browser",
+        "Tizen": "browser",
 	"Blackberry": {
 	    "api": "WebView",
 	    "url": "http://developer.blackberry.com/native/reference/cascades/bb__cascades__webview.html?f=webview",
