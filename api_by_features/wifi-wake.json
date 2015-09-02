@@ -4,8 +4,8 @@
         "browser": "",
         "sysapp": "",
         "security concerns" : "",
-        "iOS": "",
-        "Android": "",
+        "iOS": {"note":"Reserved to MFi program members"},
+        "Android": {"api":"WifiManager.WifiLock", "url": "http://developer.android.com/reference/android/net/wifi/WifiManager.WifiLock.html"},
         "Windows": "",
         "Cordova": "",
         "FirefoxOS": {
