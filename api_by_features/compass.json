@@ -3,7 +3,7 @@
     	"description": "Ability to detect orientation compared to magnetic North; see also access to raw values from magnetometer.",
         "browser": {
 	    "api": "DeviceOrientation event",
-	    "url": "http://w3c.github.io/deviceorientation/spec-source-orientation.html",
+	    "url": "http://www.w3.org/TR/orientation-event/",
 	    "working group": "W3C"
 	},
         "sysapp": "browser",

@@ -3,7 +3,7 @@
     	"description": "Ability to determine the network setup of the device",
         "browser": {
 	    "api": "The Network Information API",
-	    "url": "https://dvcs.w3.org/hg/dap/raw-file/tip/network-api/Overview.html",
+	    "url": "http://www.w3.org/TR/netinfo-api/",
 	    "working group": "W3C"
 	},
         "sysapp": "",

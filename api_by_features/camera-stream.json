@@ -2,8 +2,8 @@
     "Camera Stream": {
     	"description": "Ability to get and display a video stream from the on-board camera",
         "browser": {
-	    "api": "GetUserMedia",
-	    "url": "http://w3c.github.io/mediacapture-main/getusermedia.html",
+	    "api": "getUserMedia",
+	    "url": "http://www.w3.org/TR/mediacapture-streams/",
 	    "working group": "W3C"
 	},
         "sysapp": "browser",

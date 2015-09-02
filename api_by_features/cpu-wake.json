@@ -19,7 +19,7 @@
         },
         "ChromeApps": {
              "api": "chrome.power API",
-             "url": "https://developer.chrome.com/extensions/power"
+             "url": "https://developer.chrome.com/extensions/power",
              "working group": "Google"
         },
         "Tizen": "",

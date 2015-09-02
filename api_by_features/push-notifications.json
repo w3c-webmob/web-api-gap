@@ -3,7 +3,7 @@
     	"description": "Ability to wake up an from a server-side notification",
         "browser": {
 	    "api": "Push API",
-	    "url": "https://dvcs.w3.org/hg/push/raw-file/default/index.html",
+	    "url": "http://www.w3.org/TR/push-api/",
 	    "working group": "W3C"
 	},
         "sysapp": "browser",
