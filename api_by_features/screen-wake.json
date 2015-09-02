@@ -1,7 +1,7 @@
 {
     "Screen wake": {
     	"description": "Ability to keep the screen awake without user interaction",
-        "browser": "",
+        "browser": { "api": "Wake Lock", "url": "http://www.w3.org/TR/wake-lock/"},
         "sysapp": "",
         "security concerns" : "",
         "iOS": {
