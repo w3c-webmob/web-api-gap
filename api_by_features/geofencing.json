@@ -1,7 +1,7 @@
 {
     "Geofencing": {
     	"description": "Ability to notify the user when she enters in a given geographical area (even if the app is not running?)",
-        "browser": "planned",
+        "browser": {"api":"Geofencing API", "url": "http://www.w3.org/TR/geofencing/"},
         "sysapp": "browser",
         "security concerns" : "",
         "iOS": {
