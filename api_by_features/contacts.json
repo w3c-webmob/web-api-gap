@@ -2,12 +2,9 @@
     "Contacts": {
     	"description": "Ability to read/write access to the addressbook.",
         "browser": {
+          "api": "Contacts Manager API",
+          "url": "http://www.w3.org/TR/contacts-api/",
 	    "note": "Write to addressbook via v-card, read (some) data via input.autocomplete keys?; alternative via access to on-line addressbooks",
-	    "working group": "W3C"
-	},
-        "sysapp": {
-	    "api": "ContactsManager API",
-	    "url": "http://www.w3.org/2012/sysapps/contacts-manager-api/",
 	    "working group": "W3C"
 	},
         "security concerns" : "",

@@ -2,11 +2,13 @@
     "Calendar": {
     	"description": "Ability to read and write information from the user calendar",
         "browser": {
+      "api": "Calendar API",
+      "url": "http://www.w3.org/TR/calendar-api/",
 	    "note": "Save events via icalendar downloads; as an alternative using server-side APIs for externally managed calendars"
 	},
         "sysapp": "",
         "security concerns" : "",
-        "iOS": {	
+        "iOS": {
 	    "api": "EventKit",
             "url": "https://developer.apple.com/library/ios/documentation/DataManagement/Conceptual/EventKitProgGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004759-SW1",
 	    "working group": "Apple"
@@ -23,7 +25,7 @@
             "url": ["https://msdn.microsoft.com/library/windows/apps/microsoft.phone.tasks.saveappointmenttask",
 		    "https://msdn.microsoft.com/en-us/library/windows/apps/windows.applicationmodel.appointments.appointmentmanager.aspx",
 		    "https://msdn.microsoft.com/en-us/onedrive/dn632140"],
-	    "working group": "Microsoft"	    
+	    "working group": "Microsoft"
         },
         "Cordova": "",
         "FirefoxOS": {
