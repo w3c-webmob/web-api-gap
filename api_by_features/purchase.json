@@ -2,10 +2,8 @@
     "Purchase": {
     	"description": "Ability to pay quickly for physical goods from an app",
         "browser": {
-	    "api": ["HTML5 autocomplete",
-		   "3rd-party services"],
-	    "url": ["http://www.w3.org/wiki/HTML/Elements/form",
-		   "http://www.w3.org/wiki/Privacy/TPWG/Proposals_on_elements_for_1and3_party_use"],
+	    "api": "HTML5 autocomplete",
+	    "url": "http://www.w3.org/TR/html51/semantics.html#attr-fe-autocomplete-cc-name",
 	    "working group": "W3C"
 	},
         "sysapp": "browser",

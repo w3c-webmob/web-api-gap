@@ -2,10 +2,8 @@
     "Background file transfer": {
     	"description": "Ability to rqeuest for files to be downloaded or uploaded after the app is closed",
         "browser": {
-	    "api": ["Web Background Synchronization",
-		     "Web Workers"],
-	    "url": ["https://slightlyoff.github.io/BackgroundSync/spec/",
-		    "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers"],
+	    "api": "Web Background Synchronization",
+	    "url": "https://slightlyoff.github.io/BackgroundSync/spec/",
 	    "working group": "W3C"
 	},
         "sysapp": "browser",

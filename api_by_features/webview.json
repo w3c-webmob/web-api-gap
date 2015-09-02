@@ -2,10 +2,8 @@
     "Web view": {
     	"description": "Ability to display arbitrary Web content",
         "browser": {
-	    "api": ["iframe",
-		    "window.open"],
-	    "url": ["http://www.w3.org/wiki/HTML/Elements/iframe",
-		    "http://www.w3.org/TR/html5/browsers.html"],
+	    "api": "iframe",
+	    "url": "http://www.w3.org/TR/html5/embedded-content-0.html#the-iframe-element",
 	    "working group": "W3C"
 	},
         "sysapp": "",

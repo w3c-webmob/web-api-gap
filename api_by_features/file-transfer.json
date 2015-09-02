@@ -2,12 +2,8 @@
     "File upload": {
     	"description": "Ability to upload file via HTTP POST",
         "browser": {
-	    "api": ["XMLHTTPRequest",
-		     "FileReader",
-		     "FormData"],
-	    "url": ["https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest",
-		    "https://developer.mozilla.org/en-US/docs/Web/API/FileReader",
-		    "https://developer.mozilla.org/en-US/docs/Web/API/FormData"],
+	    "api": "XMLHTTPRequest",
+	    "url": "http://www.w3.org/TR/XMLHttpRequest/",
 	    "working group": "W3C"
 	},
         "sysapp": "browser",
