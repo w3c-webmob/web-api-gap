@@ -4,6 +4,7 @@
         "browser": {
 	    "api": "ECMAScript Internationalization API",
 	    "url": "http://www.ecma-international.org/ecma-402/1.0/",
+            "status":"standard",
 	    "working group": "W3C"
 	},
         "sysapp": "browser",
