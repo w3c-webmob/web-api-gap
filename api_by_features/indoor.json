@@ -16,11 +16,7 @@
 	},
         "Windows": "",
         "Cordova": "",
-        "FirefoxOS": {
-	    "api": "OS/Geolocation",
-	    "url": "https://wiki.mozilla.org/Firefox_OS/Geolocation",
-	    "working group": "Mozilla"	    
-	},
+        "FirefoxOS": "",
         "ChromeApps": "",
         "Tizen": "",
 	"Blackberry": ""
