@@ -1,8 +1,8 @@
 {
-    "Baterry": {
+    "Battery": {
     	"description": "Ability to read level and mode of charge of baterry.",
         "browser": {
-            "api": "Baterry Status API",
+            "api": "Battery Status API",
             "url": "http://www.w3.org/TR/battery-status/",
             "working group": "W3C"
         },
