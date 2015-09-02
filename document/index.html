@@ -20,7 +20,7 @@
       <h1>API Gap: Analysis of APIs on Native Mobile Platforms and the Web</h1>
       <h2 id="month"></h2>
     </div>
-  
+
     <div id="main">
       <p class="logo">
         <a href="http://html5apps-project.eu/"><img src="html5apps.png" alt="HTML5Apps"></a>
@@ -55,7 +55,11 @@
       <p>In this document readers can find a list of native APIs for mobile operating systems. Some of these APIs have web equivelants. This documnet hopes to highlight the gaps for possible standards work to close the gap with web and native.</p>
 </section>
 
-<section>
+<script id="key" type="template">
+<p class='key'>Key: <br><span class='high'>Mature Browser API</span> <span class='medium'>In Progress Browser API</span> <span class='low'>Early work on a Browser API</span> <span class='fail'>Work on Browser API failed</span><br> <span class='none'>No API for that feature</span> <span class='native'>Native platform API</span> <span class='unknown'>Missing Information</span><br><span class="browser">Uses browser API</span>  <span class="proprietary">Proprietary JavaScript API</span> <span class="gap">JavaScript API</span> </p>
+</script>
+
+<section class="featureset">
       <h2 id="device">1.Device Hardware Interaction</h2>
 
       <p>Native mobile operating systems offer a set of APIs which allow apps to interact with device hardware. This can include sensors, wireless communication readers, or battery and screen information and controlling APIs.</p>
@@ -67,7 +71,7 @@
       <p>Other close-ranged technologies in use include <a data-featureid="nfc">NFC APIs</a>. These are particularly useful for payments and ticketing use cases where contact is expected and security is more important. The <a href="http://www.w3.org/2012/nfc/">NFC Working Group</a> at W3C developed a web version of a Web NFC API.</p>
 
       <div>
-        <p>As more use cases arrive for interacting with the world around users more sensor hardware is added to devices. Native mobile platforms allo app developers to interact with these sensors through a host of APIs. The <a data-featureid="compass">Compass API</a> returns compass data good for map or AR use cases; <a data-featureid="magnetometer">Magnetometer APIs</a> also support these use cases. The <a data-featureid="accelerometer">Accelerometer APIs</a> can alert an app to the tilt or shift of the mobile's orientation to allow apps to change their user experience to meet the situation. 
+        <p>As more use cases arrive for interacting with the world around users more sensor hardware is added to devices. Native mobile platforms allo app developers to interact with these sensors through a host of APIs. The <a data-featureid="compass">Compass API</a> returns compass data good for map or AR use cases; <a data-featureid="magnetometer">Magnetometer APIs</a> also support these use cases. The <a data-featureid="accelerometer">Accelerometer APIs</a> can alert an app to the tilt or shift of the mobile's orientation to allow apps to change their user experience to meet the situation.
       </div>
 
       <p>Mobile devices offer more feedback options now other than just sound, the <a data-featureid="vibration">Vibration APIs</a> gives apps the ability to signal to the vibration element in devices to turn on, off or react in a certain way.</p>
@@ -143,7 +147,7 @@
 
 <section class="featureset">
       <h2 id="storage">5.Storage, File and Cache Management</h2>
-      
+
       <p>Native apps sometimes have use cases for file management and trasfer, this can include sending, receiving and opening photos or reading pdf documents...</p>
 
       <p>The <a data-featureid="file-transfer-background">File Transfer Background API</a> ...</p>
@@ -182,11 +186,11 @@
 
 <section class="featureset">
       <h2 id="webview">8.Webview</h2>
-      
+
       <p>Webview...</p>
 
       <p>The <a data-featureid="webview">Webview API</a> ...</p>
-      
+
 </section>
 
 <section>

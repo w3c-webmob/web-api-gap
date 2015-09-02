@@ -14,10 +14,25 @@ div#page { background-image:none; }
 div#page, #main { max-width:60em; margin-right:auto;margin-left:auto; }
 table { border-collapse:collapse;}
 th, td { border-left:thin solid black; border-right: thin solid black; text-align:left;}
-td.high { background-color:#efe;}
-td.medium { background-color: #ffe;}
-td.low { background-color: #fed;}
+
+tr *:nth-child(2), tr *:nth-child(3), tr *:nth-child(7) { border-left-width:3px;}
 p.figure { text-align:center; font-style:italic;}
+
+p.key span { display: block; width: 10em; border: thin solid black; padding: 3px; margin:2px; height: 2.5em; text-align:center; float: left; font-size:0.8em;}
+p.key br { clear: left;}
+
+section { clear: left;}
+
+.proprietary { background-color: #fcc;}
+.gap { background-color: #fef;}
+.none { background-color: #aaa;}
+.fail { background-color: #fee;}
+.low { background-color: #ffe;}
+.medium { background-color: #eef;}
+.high { background-color: #efe;}
+.native { background-color: #eee};
+.browser { background-color: #fff;}
+.unknown { background-color: #333; color: white;}
 
 @media print {
 h2 { string-set: chapter-title content() }
@@ -67,7 +82,7 @@ a[href^="http"]::after {
   display: none;
 }
 
-.versions a[href^="http"] { text-decoration: none; color: inherit;} 
+.versions a[href^="http"] { text-decoration: none; color: inherit;}
 a.dupref::after, .versions a[href^="http"]::after {
   content: none;
   float: none;
@@ -107,8 +122,8 @@ line { stroke: #AAF; stroke-width:5px; }
 text.past { fill:#FFF;}
 
 /* implementation information */
-.unknown, .not { opacity: 0.3 } 
-.partial { opacity: 0.8} 
-text.symbol { font-size:40px;} 
+.not { opacity: 0.3 }
+.partial { opacity: 0.8}
+text.symbol { font-size:40px;}
 text.versions { font-size:20px; text-anchor:start;}
 .logo img { vertical-align: middle;}
