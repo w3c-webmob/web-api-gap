@@ -1,11 +1,9 @@
 {
     "NFC": {
     	"description": "Read / write access to NFC-enabled devices",
-        "browser": "",
-        "sysapp": {
-	    "api": "NFC API",
-	    "url": "http://www.w3.org/2012/nfc/web-api/",
-	    "working group": "W3C"
+        "browser": {
+	    "api": "Web NFC API",
+	    "url": "https://w3c.github.io/web-nfc/"
 	},
         "security concerns" : "",
         "iOS": "",
