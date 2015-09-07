@@ -13,38 +13,35 @@ As more use cases arrive for interacting with the world around users more sensor
 
 Mobile devices offer more feedback options now other than just sound, the Vibration APIs gives apps the ability to signal to the vibration element in devices to turn on, off or react in a certain way.
 
-The Wifi-Wake API ...
+The Wifi-Wake API will keep a device's wifi active even when the device is idle. On the web this could produce large security issues and result in battery drain. No web implmentation exists as yet. 
 
 USB APIs gives apps the ability to interact with other devices through the USB port.
 
-2.Device Apps Interaction
+### Device Apps Interaction
 
-Mobile operating systems have a set of features which are often reused in applications.
+Mobile operating systems have a set of features which are often reused in applications, some of these are implemented in the web already.
 
-The Calendar API ...
+A Calendar API will allow an app to enter, modify, read and delete events in the operating system's default calendar and the Contacts API will allow the same functions for the default contact management app. Most native operating systems have both these APIs; the web has these defined ([Calendar API Note](http://www.w3.org/TR/calendar-api/) and [Pick Contents Intent](http://www.w3.org/TR/contacts-api/)) but not implemented. 
 
-The Contacts API ...
+Native apps are using Push Notifications to send alerts to users and encourage them to interact with their app more freqently. The web's [Push API](http://www.w3.org/TR/push-api/) should help those native developers who rely on notifications both for UI and to encourage more frequent usage to add this functionality to their web products too. 
 
-The Push Notifications API ...
+Globalisation APIs allow apps to reflect the correct dates, currencies and numbers for the user's location. This functionality is built into [ECMAScript](http://www.ecma-international.org/ecma-402/1.0/) for use on the web.
 
-The Globalization API ...
-
-The IME API ...
+The IME API ... http://www.w3.org/TR/ime-api/
 
 The Local Notifications API ...
 
-Feature	Description	browser	iOS	Android	Windows 8	Cordova	FirefoxOS	ChromeApps	Tizen	Blackerry
-3.Geo
+### Geo
 
-Geolocation functionality allows apps to locate a device. APIs here care little for the underlying technology used but provide developers with information necessary to return to users their location.
+Geolocation functionality allows apps to locate a device. APIs here care little for the underlying technology used but provide developers with information necessary to return to users their location. Three main APIs exits to manage geolocation: 
 
-The Geolocation API ...
+* The Geolocation API returns a user's location given the latitude, longitude and altitude of the device.
+* The Geofencing API allows the app to detect that the user is in a specific ares
+* The Indoor API can determine a user's location within a building.
 
-The Geofencing API ...
+The [Geolocation API](http://www.w3.org/TR/geolocation-API/) is standardised and widely implemented. The [Geofencing API](http://www.w3.org/TR/geofencing/) is being worked on presently in the W3C's Geolocation Working Group. There are no current plans for an Indoor web API. 
 
-The Indoor API ...
-
-4. Application Lifecycle
+### Application Lifecycle
 
 Large applications and/or those which send constant requests to a network can cause drain on a mobile devices resources including battery and CPU power. APIs exist to allow native apps to manage their power and bandwidth consumption more intelligently.
 
