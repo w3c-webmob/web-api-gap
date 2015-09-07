@@ -64,27 +64,14 @@ The Secure Storage API ...
 
 ### Network Information and Call/Message Management
 
-Network connectivity represents a major asset for mobile devices: the Web is an immense store of content, as well as an almost endless source of processing power, overcoming two of the limitations of mobile devices...
+Some native apps make use of network information to make decisions over what content to deliver or whether they can send data. Network Information APIs provide this data and are widely implemented on native platforms; the W3C has defined a Network Information API. 
 
-TheContacts API is ... and can be found above.
+Native applications can also use Dialer APIs, Messaging APIs and APIs with Audio-Video Communications can enable call and message features in-app; [WebRTC](http://www.w3.org/TR/webrtc/) enables this functionality in web apps. 
 
-The Telephony API ...
+### Payments
 
-The Network Information API ...
+Payments, both in-app and in-store are a key feature of a number of native mobile apps and also a direct way of monitization for mobile app developers. In App Billing APIs and Purchase APIs provide an direct method of monetisation for native apps. Payments on the web exist in many forms, and the W3C is looking to standardise some Payments functions in the Web Payments Interest Group.
 
-The Messaging API ...
+### Webview
 
-7.Payments
-
-Payments, both in-app and in-store are a key feature of a number of native mobile apps and also a direct way of monitization for mobile app developers...
-
-The In App Billing API ...
-
-The Purchase API ...
-
-8.Webview
-
-Webview...
-
-The Webview API ...
-
+Native apps can use WebView APIs to create a browser with limited functions in their apps. The web naturally has this functionality through linking and iframes.
