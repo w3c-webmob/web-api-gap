@@ -43,37 +43,26 @@ The [Geolocation API](http://www.w3.org/TR/geolocation-API/) is standardised and
 
 ### Application Lifecycle
 
-Large applications and/or those which send constant requests to a network can cause drain on a mobile devices resources including battery and CPU power. APIs exist to allow native apps to manage their power and bandwidth consumption more intelligently.
+Large applications and/or those which send constant requests to a network can cause drain on a mobile devices resources including battery and CPU power. APIs exist to allow native apps to manage their power and bandwidth consumption more intelligently. Native apps can:
 
-The Background Scheduler API ...
+* Use a Background Scheduler API to run a task at a pre-set time, even if the app is no longer running
+* Use a CPU Wake API to wake up the CPU at a specific time
+* Find out the model and number of a device using a Device-info API
+* Wake up the screeng usin a Screen-wake API.
 
-The CPU Wake API ...
+The W3C's [Wake Lock API](http://www.w3.org/TR/wake-lock/) will allow web apps to override the device's screen-sleep functions. The other functions here come with some security and resource issues which need to be considered when standardising and implementing. 
 
-The Device-info API ...
+### Media and Real-Time Communications
 
-The Screen-wake API ...
+Social and messaging native apps on mobile devices often use camera and microphone input to allow users to create their own content to (for example) push to social media or create their own content on an app. The web has gained these functions recently with [GetUserMedia](http://www.w3.org/TR/mediacapture-streams/), [Media Capture](http://www.w3.org/TR/html-media-capture/) and [Video Events](http://www.w3.org/TR/html-media-capture/) as part of the work on WebRTC. 
 
-4.Media and Real-Time Communications
+### Storage, File and Cache Management
 
-Social and messaging native apps on mobile devices often use camera and microphone input to...
-
-The Camera-stream API ...
-
-The Media-capture API ...
-
-The Media Play API ...
-
-5.Storage, File and Cache Management
-
-Native apps sometimes have use cases for file management and trasfer, this can include sending, receiving and opening photos or reading pdf documents...
-
-The File Transfer Background API ...
-
-The File Transfer API ...
+Native apps sometimes have use cases for file management and transfer, this can include sending, receiving and opening photos or reading pdf documents. Native apps use File Transfer APIs to do file management and File Transfer Background APIs to do this in the background. The W3C is standardising background transfer for ServiceWorkers which should all for some of this functionality, standard XHR Requests also do this on the web. 
 
 The Secure Storage API ...
 
-6.Network Information and Call/Message Management
+### Network Information and Call/Message Management
 
 Network connectivity represents a major asset for mobile devices: the Web is an immense store of content, as well as an almost endless source of processing power, overcoming two of the limitations of mobile devices...
 
