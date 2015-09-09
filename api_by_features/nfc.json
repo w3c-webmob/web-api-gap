@@ -23,7 +23,11 @@
 	    "url": "https://wiki.mozilla.org/WebAPI/WebNFC#Current_API",
 	    "working group": "Mozilla"
 	},
-        "ChromeApps": "",
+        "ChromeApps": {
+	    "api": "WebNFC",
+	    "url": "https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/dIbUdDU9a6E/vjQDo_pcBAAJ",
+	    "working group": ""
+	},
         "Tizen": "sysapp",
 	"Blackberry": {
 	    "api": "GeneralNFC",
