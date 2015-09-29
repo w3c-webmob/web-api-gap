@@ -1,0 +1,28 @@
+{
+    "LTE Network Info": {
+    	"description": "Ability to get the information about the LTE network (e.g., cell, tracking area) in which the UE is attached.",
+        "browser": { 
+        	 "api": "Network Information API",
+        	 "url": "http://w3c.github.io/netinfo/",
+        	 "working group": "W3C"
+        },
+        "sysapp": "",
+        "security concerns" : "",
+        "iOS": "",
+        "Android": {
+	         "api": "CellInLTE",
+	         "url": "http://developer.android.com/reference/android/telephony/CellInfoLte.html",
+	         "working group": "Google"
+	},
+        "Windows 8": "",
+        "Cordova": "",
+        "FirefoxOS": {
+            "api": "MozMobileCellInfo",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/MozMobileCellInfo",
+            "working group": "Mozilla"
+        },
+        "ChromeApps": "",
+        "Tizen": "",
+	      "Blackberry": ""
+    }
+}
