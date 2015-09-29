@@ -30,12 +30,12 @@
             "working group": "Apache"
         },
         "FirefoxOS": {
-            "url": "browser",
+            "api": "DeviceMotionEvent.acceleration",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/acceleration",
 	    "working group": "Mozilla"
         },
         "ChromeApps": {
-            "url": "browser",
-	    "working group": "Google"
+            "api": "browser",
         },
         "Tizen": {
             "url": "browser",
