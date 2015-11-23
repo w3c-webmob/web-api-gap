@@ -50,7 +50,7 @@ function populate(e) {
             if (data[name].browser && data[name].browser.url) {
               if (data[name].browser.url.match(/^http:\/\/www\.w3\.org\/TR\//)) {
                 var shortname = data[name].browser.url.slice(21).split('/')[0].split('#')[0];
-                return fetch("https://api-test.w3.org/specifications/" + shortname + "/versions/latest?apikey=" + w3cAPIKey, {mode: "cors"}).then(jsonHandler);
+                return fetch("https://api.w3.org/specifications/" + shortname + "/versions/latest?apikey=" + w3cAPIKey, {mode: "cors"}).then(jsonHandler);
               } else {
                 return null;
               }
