@@ -29,10 +29,7 @@
 	    "working group": "Apache"
 	},
         "FirefoxOS": "sysapp",
-        "ChromeApps": {
-	    "note": "Access to on-line service Google Contacts",
-	    "working group": "Google"
-	},
+        "ChromeApps": "sysapp",
         "Tizen": "sysapp",
 	"Blackberry": {
             "api": "Contacts",
