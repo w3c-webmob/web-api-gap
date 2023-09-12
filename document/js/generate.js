@@ -4,9 +4,6 @@ var platforms = ["browser", "iOS", "Android", "Windows", , "Blackberry", "Cordov
 
 var html5Platforms = ["Cordova", "FirefoxOS", "ChromeApps", "Tizen"];
 
-// limited to w3c-webmob.github.io origin
-var w3cAPIKey = "tc7zb0gxv7kwks0c0o04gkk0s4s8484";
-
 function jsonHandler(res) { return res.json();}
 
 function populate(e) {
@@ -50,7 +47,7 @@ function populate(e) {
             if (data[name].browser && data[name].browser.url) {
               if (data[name].browser.url.match(/^http:\/\/www\.w3\.org\/TR\//)) {
                 var shortname = data[name].browser.url.slice(21).split('/')[0].split('#')[0];
-                return fetch("https://api.w3.org/specifications/" + shortname + "/versions/latest?apikey=" + w3cAPIKey, {mode: "cors"}).then(jsonHandler);
+                return fetch("https://api.w3.org/specifications/" + shortname + "/versions/latest", {mode: "cors"}).then(jsonHandler);
               } else {
                 return null;
               }
